@@ -1,0 +1,11 @@
+C:\Users\jovce.vretovski\source\repos\MF\MF\MF\MF.Domain\bin\Debug\netcoreapp3.1\MF.Domain.deps.json
+C:\Users\jovce.vretovski\source\repos\MF\MF\MF\MF.Domain\bin\Debug\netcoreapp3.1\MF.Domain.dll
+C:\Users\jovce.vretovski\source\repos\MF\MF\MF\MF.Domain\bin\Debug\netcoreapp3.1\MF.Domain.pdb
+C:\Users\jovce.vretovski\source\repos\MF\MF\MF\MF.Domain\bin\Debug\netcoreapp3.1\MF.Entity.dll
+C:\Users\jovce.vretovski\source\repos\MF\MF\MF\MF.Domain\bin\Debug\netcoreapp3.1\MF.Entity.pdb
+C:\Users\jovce.vretovski\source\repos\MF\MF\MF\MF.Domain\obj\Debug\netcoreapp3.1\MF.Domain.csprojAssemblyReference.cache
+C:\Users\jovce.vretovski\source\repos\MF\MF\MF\MF.Domain\obj\Debug\netcoreapp3.1\MF.Domain.AssemblyInfoInputs.cache
+C:\Users\jovce.vretovski\source\repos\MF\MF\MF\MF.Domain\obj\Debug\netcoreapp3.1\MF.Domain.AssemblyInfo.cs
+C:\Users\jovce.vretovski\source\repos\MF\MF\MF\MF.Domain\obj\Debug\netcoreapp3.1\MF.Domain.csproj.CopyComplete
+C:\Users\jovce.vretovski\source\repos\MF\MF\MF\MF.Domain\obj\Debug\netcoreapp3.1\MF.Domain.dll
+C:\Users\jovce.vretovski\source\repos\MF\MF\MF\MF.Domain\obj\Debug\netcoreapp3.1\MF.Domain.pdb
