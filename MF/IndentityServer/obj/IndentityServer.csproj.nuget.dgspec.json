@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jovce.vretovski\\source\\repos\\MF\\MF\\MF\\IndentityServer\\IndentityServer.csproj": {}
+    "C:\\Users\\Jovce\\source\\repos\\shablon\\MF\\MF\\IndentityServer\\IndentityServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jovce.vretovski\\source\\repos\\MF\\MF\\MF\\IndentityServer\\IndentityServer.csproj": {
+    "C:\\Users\\Jovce\\source\\repos\\shablon\\MF\\MF\\IndentityServer\\IndentityServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jovce.vretovski\\source\\repos\\MF\\MF\\MF\\IndentityServer\\IndentityServer.csproj",
+        "projectUniqueName": "C:\\Users\\Jovce\\source\\repos\\shablon\\MF\\MF\\IndentityServer\\IndentityServer.csproj",
         "projectName": "IndentityServer",
-        "projectPath": "C:\\Users\\jovce.vretovski\\source\\repos\\MF\\MF\\MF\\IndentityServer\\IndentityServer.csproj",
-        "packagesPath": "C:\\Users\\jovce.vretovski\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jovce.vretovski\\source\\repos\\MF\\MF\\MF\\IndentityServer\\obj\\",
+        "projectPath": "C:\\Users\\Jovce\\source\\repos\\shablon\\MF\\MF\\IndentityServer\\IndentityServer.csproj",
+        "packagesPath": "C:\\Users\\Jovce\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jovce\\source\\repos\\shablon\\MF\\MF\\IndentityServer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jovce.vretovski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jovce\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,9 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "\\\\192.168.1.32\\DOTNET.Nuget32": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://gslake.pkgs.visualstudio.com/_packaging/AspektNugetFeed/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {

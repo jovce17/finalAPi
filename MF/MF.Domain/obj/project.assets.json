@@ -7222,23 +7222,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jovce.vretovski\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Jovce\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jovce.vretovski\\source\\repos\\MF\\MF\\MF\\MF.Domain\\MF.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Jovce\\source\\repos\\shablon\\MF\\MF\\MF.Domain\\MF.Domain.csproj",
       "projectName": "MF.Domain",
-      "projectPath": "C:\\Users\\jovce.vretovski\\source\\repos\\MF\\MF\\MF\\MF.Domain\\MF.Domain.csproj",
-      "packagesPath": "C:\\Users\\jovce.vretovski\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jovce.vretovski\\source\\repos\\MF\\MF\\MF\\MF.Domain\\obj\\",
+      "projectPath": "C:\\Users\\Jovce\\source\\repos\\shablon\\MF\\MF\\MF.Domain\\MF.Domain.csproj",
+      "packagesPath": "C:\\Users\\Jovce\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jovce\\source\\repos\\shablon\\MF\\MF\\MF.Domain\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\jovce.vretovski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Jovce\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7246,15 +7242,13 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "\\\\192.168.1.32\\DOTNET.Nuget32": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://gslake.pkgs.visualstudio.com/_packaging/AspektNugetFeed/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\jovce.vretovski\\source\\repos\\MF\\MF\\MF\\MF.Entity\\MF.Entity.csproj": {
-              "projectPath": "C:\\Users\\jovce.vretovski\\source\\repos\\MF\\MF\\MF\\MF.Entity\\MF.Entity.csproj"
+            "C:\\Users\\Jovce\\source\\repos\\shablon\\MF\\MF\\MF.Entity\\MF.Entity.csproj": {
+              "projectPath": "C:\\Users\\Jovce\\source\\repos\\shablon\\MF\\MF\\MF.Entity\\MF.Entity.csproj"
             }
           }
         }

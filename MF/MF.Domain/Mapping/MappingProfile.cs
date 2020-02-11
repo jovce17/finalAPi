@@ -25,10 +25,10 @@ namespace MF.Domain.Mapping
                 
 
             CreateMap<Contact, ContactViewModel>()
-                .ForMember(dest => dest.City.Id, input => input.MapFrom(src => src.CityId))
-                .ForMember(dest => dest.City.Value, input => input.MapFrom(src => src.City.Name))
-                .ForMember(dest => dest.ContactType.Id, input => input.MapFrom(src => src.ContactType))
-                .ForMember(dest => dest.ContactType.Value , input => input.MapFrom(src => Enum.GetName(typeof(Enums.ContactType), src.ContactType) ));
+                .ForPath(dest => dest.City.Id, input => input.MapFrom(src => src.CityId))
+                .ForPath(dest => dest.City.Value, input => input.MapFrom(src => src.City.Name))
+                .ForPath(dest => dest.ContactType.Id, input => input.MapFrom(src => src.ContactType))
+                .ForPath(dest => dest.ContactType.Value , input => input.MapFrom(src => Enum.GetName(typeof(Enums.ContactType), src.ContactType) ));
 
 
 
