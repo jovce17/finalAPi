@@ -7024,23 +7024,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jovce.vretovski\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Jovce\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MF\\MF\\IndentityServer\\IndentityServer.csproj",
+      "projectUniqueName": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi\\MF\\IndentityServer\\IndentityServer.csproj",
       "projectName": "IndentityServer",
-      "projectPath": "D:\\MF\\MF\\IndentityServer\\IndentityServer.csproj",
-      "packagesPath": "C:\\Users\\jovce.vretovski\\.nuget\\packages\\",
-      "outputPath": "D:\\MF\\MF\\IndentityServer\\obj\\",
+      "projectPath": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi\\MF\\IndentityServer\\IndentityServer.csproj",
+      "packagesPath": "C:\\Users\\Jovce\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi\\MF\\IndentityServer\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\jovce.vretovski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Jovce\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7048,9 +7044,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "\\\\192.168.1.32\\DOTNET.Nuget32": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://gslake.pkgs.visualstudio.com/_packaging/AspektNugetFeed/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {

@@ -55,6 +55,19 @@ namespace MF.Domain.Mapping
                 .ForPath(dest => dest.Status.Value, input => input.MapFrom(src => Enum.GetName(typeof(Enums.ApplicationStatus), src.Status)));
 
 
+            CreateMap<ApplicationApprovalViewModel, ApplicationApproval>()
+                 .ForPath(dest => dest.ApplicationId, opts => opts.MapFrom(src => src.Application.Id))
+                 .ForPath(dest => dest.UserId, opts => opts.MapFrom(src => src.User.Id))
+                 .ForPath(dest => dest.Status, opts => opts.MapFrom(src => src.Status.Id));
+            CreateMap<ApplicationApproval, ApplicationApprovalViewModel>()
+                 .ForPath(dest => dest.Application.Id, opts => opts.MapFrom(src => src.ApplicationId))
+                 .ForPath(dest => dest.Application.Value, opts => opts.MapFrom(src => src.Application.ApplicationNumber))
+                 .ForPath(dest => dest.User.Id, opts => opts.MapFrom(src => src.UserId))
+                 .ForPath(dest => dest.User.Value, opts => opts.MapFrom(src => src.User.UserName))
+                 .ForPath(dest => dest.Status.Id, input => input.MapFrom(src => src.Status))
+                 .ForPath(dest => dest.Status.Value, input => input.MapFrom(src => Enum.GetName(typeof(Enums.ApplicationApprovalStatus), src.Status)));
+
+
 
 
             CreateMap<UserViewModel, User>()

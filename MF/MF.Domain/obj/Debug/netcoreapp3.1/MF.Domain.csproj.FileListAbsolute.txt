@@ -31,3 +31,14 @@ D:\MF\MF\MF.Domain\obj\Debug\netcoreapp3.1\MF.Domain.AssemblyInfo.cs
 D:\MF\MF\MF.Domain\obj\Debug\netcoreapp3.1\MF.Domain.csproj.CopyComplete
 D:\MF\MF\MF.Domain\obj\Debug\netcoreapp3.1\MF.Domain.dll
 D:\MF\MF\MF.Domain\obj\Debug\netcoreapp3.1\MF.Domain.pdb
+C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Domain\bin\Debug\netcoreapp3.1\MF.Domain.deps.json
+C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Domain\bin\Debug\netcoreapp3.1\MF.Domain.dll
+C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Domain\bin\Debug\netcoreapp3.1\MF.Domain.pdb
+C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Domain\bin\Debug\netcoreapp3.1\MF.Entity.dll
+C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Domain\bin\Debug\netcoreapp3.1\MF.Entity.pdb
+C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Domain\obj\Debug\netcoreapp3.1\MF.Domain.csprojAssemblyReference.cache
+C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Domain\obj\Debug\netcoreapp3.1\MF.Domain.AssemblyInfoInputs.cache
+C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Domain\obj\Debug\netcoreapp3.1\MF.Domain.AssemblyInfo.cs
+C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Domain\obj\Debug\netcoreapp3.1\MF.Domain.csproj.CopyComplete
+C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Domain\obj\Debug\netcoreapp3.1\MF.Domain.dll
+C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Domain\obj\Debug\netcoreapp3.1\MF.Domain.pdb

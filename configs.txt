@@ -1,5 +1,7 @@
-Data Source=DESKTOP-HGLV3CG;Initial Catalog=Tanja2;Integrated Security=True;MultipleActiveResultSets=true;
-Data Source=192.168.1.5\prod2014;Initial Catalog=Tanja2;Integrated Security=True;MultipleActiveResultSets=true;
+
+
+ "MFDB": "Data Source=DESKTOP-HGLV3CG;Initial Catalog=Tanja2;Integrated Security=True;MultipleActiveResultSets=true;"
+ "MFDB": "Data Source=192.168.1.5\\prod2014;Initial Catalog=Tanja2;Integrated Security=True;MultipleActiveResultSets=true;"
 "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=aspnet-BlazorApp1-FD8D5EF4-548F-41E2-9F45-0DF29265A91C;Trusted_Connection=True;MultipleActiveResultSets=true"
 
 

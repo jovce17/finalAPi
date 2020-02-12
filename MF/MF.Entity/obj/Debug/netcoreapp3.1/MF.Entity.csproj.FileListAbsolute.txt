@@ -28,3 +28,13 @@ D:\MF\MF\MF.Entity\obj\Debug\netcoreapp3.1\MF.Entity.AssemblyInfoInputs.cache
 D:\MF\MF\MF.Entity\obj\Debug\netcoreapp3.1\MF.Entity.AssemblyInfo.cs
 D:\MF\MF\MF.Entity\obj\Debug\netcoreapp3.1\MF.Entity.dll
 D:\MF\MF\MF.Entity\obj\Debug\netcoreapp3.1\MF.Entity.pdb
+C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Entity\bin\Debug\netcoreapp3.1\MF.Entity.deps.json
+C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Entity\bin\Debug\netcoreapp3.1\MF.Entity.runtimeconfig.json
+C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Entity\bin\Debug\netcoreapp3.1\MF.Entity.runtimeconfig.dev.json
+C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Entity\bin\Debug\netcoreapp3.1\MF.Entity.dll
+C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Entity\bin\Debug\netcoreapp3.1\MF.Entity.pdb
+C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Entity\obj\Debug\netcoreapp3.1\MF.Entity.csprojAssemblyReference.cache
+C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Entity\obj\Debug\netcoreapp3.1\MF.Entity.AssemblyInfoInputs.cache
+C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Entity\obj\Debug\netcoreapp3.1\MF.Entity.AssemblyInfo.cs
+C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Entity\obj\Debug\netcoreapp3.1\MF.Entity.dll
+C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Entity\obj\Debug\netcoreapp3.1\MF.Entity.pdb

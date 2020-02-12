@@ -31,7 +31,7 @@ namespace MF.Domain
         public decimal? InterestRate { get; set; }
         public decimal? ApplicationFee { get; set; }
 
-        [JsonIgnore]  //to avoid circular serialization 
-        public virtual CityViewModel CityV { get; set; }
+      //  [JsonIgnore]  //to avoid circular serialization 
+      //  public virtual CityViewModel CityV { get; set; }
     }
 }

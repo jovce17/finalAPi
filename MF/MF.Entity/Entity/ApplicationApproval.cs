@@ -11,5 +11,6 @@ namespace MF.Entity
         public DateTime? DecisionDate { get; set; }
 
         public virtual Application Application { get; set; }
+        public virtual User User { get; set; }
     }
 }

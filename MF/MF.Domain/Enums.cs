@@ -30,5 +30,12 @@ namespace MF.Domain
             Rejected=3
 
         }
+        public enum ApplicationApprovalStatus
+        {
+            NotDecided=0,
+            Approved = 1,
+            Rejected = 2
+
+        }
     }
 }
