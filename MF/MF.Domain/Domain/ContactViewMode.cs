@@ -24,7 +24,7 @@ namespace MF.Domain
         public string Email { get; set; }
         public string IdcardNumber { get; set; }
 
-        public KeyValueGeneric<int?, string> MartialStatus = new KeyValueGeneric<int?, string>();
+        public KeyValueGeneric<int?, string> MaritialStatus = new KeyValueGeneric<int?, string>();
 
         public KeyValueGeneric<int?, string> ContactType = new KeyValueGeneric<int?, string>();
         public bool? Employee { get; set; }

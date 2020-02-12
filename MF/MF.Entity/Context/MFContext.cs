@@ -55,7 +55,7 @@ namespace MF.Entity.Context
             modelBuilder.Entity<User>();
             //    .Property(a => a.RowVersion).IsRowVersion();
             modelBuilder.Entity<Contact>();
-        //    .Property(a => a.RowVersion).IsRowVersion();
+            modelBuilder.Entity<Office>();
 
             //modelBuilder.Entity<User>()
             //.Property(p => p.DecryptedPassword)

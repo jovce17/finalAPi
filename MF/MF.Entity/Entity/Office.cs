@@ -14,6 +14,7 @@ namespace MF.Entity
         public string Name { get; set; }
         public int? CityId { get; set; }
 
+        public virtual City City { get; set; }
         public virtual ICollection<Application> Application { get; set; }
         public virtual ICollection<Loan> Loan { get; set; }
     }

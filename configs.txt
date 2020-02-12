@@ -1,0 +1,21 @@
+Scaffold-DbContext "Server=DESKTOP-HGLV3CG;Database=Tanja2;Trusted_Connection=True;Integrated Security=true;MultipleActiveResultSets=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Entity2 -f
+"DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=aspnet-BlazorApp1-FD8D5EF4-548F-41E2-9F45-0DF29265A91C;Trusted_Connection=True;MultipleActiveResultSets=true"
+
+services.AddDbContext<ApplicationDbContext>(options =>
+                options.UseSqlServer(
+                    Configuration.GetConnectionString("DefaultConnection")));
+
+
+Microsoft.AspNet.Identity.EntityFramework
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore.Abstractions
+Microsoft.EntityFrameworkCore.Analyzers
+Microsoft.EntityFrameworkCore.Design
+Microsoft.EntityFrameworkCore.Relational
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.SqlServer.Design
+Microsoft.EntityFrameworkCore.Tools
+
+Swashbuckle.AspNetCore.Swagger
+Swashbuckle.AspNetCore.SwaggerGen
+Swashbuckle.AspNetCore.SwaggerUI

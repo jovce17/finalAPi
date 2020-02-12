@@ -11,7 +11,7 @@ namespace MF.Domain
             Male = 1,
             Female = 2
         }
-        public enum MartialStatus
+        public enum MaritialStatus
         {
             Single = 1,
             Merried = 2
