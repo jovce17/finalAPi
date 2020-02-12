@@ -185,6 +185,8 @@ namespace MF.Api
                 services.AddTransient(typeof(CityServiceAsync<,>), typeof(CityServiceAsync<,>));
                 services.AddTransient(typeof(OfficeService<,>), typeof(OfficeService<,>));
                 services.AddTransient(typeof(OfficeServiceAsync<,>), typeof(OfficeServiceAsync<,>));
+                services.AddTransient(typeof(ApplicationService<,>), typeof(ApplicationService<,>));
+                services.AddTransient(typeof(ApplicationServiceAsync<,>), typeof(ApplicationServiceAsync<,>));
                 //...add other services
                 //
                 services.AddTransient(typeof(IService<,>), typeof(GenericService<,>));

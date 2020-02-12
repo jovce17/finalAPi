@@ -2806,3 +2806,656 @@ WHERE [c].[Id] = @__p_0"
 ===> 2020-02-12 01:06:37.162 +01:00 [Debug] Connection id ""0HLTF9SRBG4V3"" stopped.
 ===> 2020-02-12 01:06:37.163 +01:00 [Debug] Connection id ""0HLTF9SRBG4V1"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
 ===> 2020-02-12 01:06:37.164 +01:00 [Debug] Connection id ""0HLTF9SRBG4V3"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+===> 2020-02-12 08:52:40.997 +01:00 [Information] Starting web host
+===> 2020-02-12 08:52:42.176 +01:00 [Information] User profile is available. Using '"C:\Users\jovce.vretovski\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+===> 2020-02-12 08:52:42.312 +01:00 [Debug] Reading data from file '"C:\Users\jovce.vretovski\AppData\Local\ASP.NET\DataProtection-Keys\key-96ce2e1e-2e97-4650-ad6c-e243653c90e6.xml"'.
+===> 2020-02-12 08:52:42.370 +01:00 [Debug] Reading data from file '"C:\Users\jovce.vretovski\AppData\Local\ASP.NET\DataProtection-Keys\key-b398b445-7b2f-48c0-9f87-3d38aeab141a.xml"'.
+===> 2020-02-12 08:52:42.373 +01:00 [Debug] Reading data from file '"C:\Users\jovce.vretovski\AppData\Local\ASP.NET\DataProtection-Keys\key-bdfe4b72-d5b3-4ab9-9687-838530baf244.xml"'.
+===> 2020-02-12 08:52:42.388 +01:00 [Debug] Found key {96ce2e1e-2e97-4650-ad6c-e243653c90e6}.
+===> 2020-02-12 08:52:42.395 +01:00 [Debug] Found key {b398b445-7b2f-48c0-9f87-3d38aeab141a}.
+===> 2020-02-12 08:52:42.401 +01:00 [Debug] Found key {bdfe4b72-d5b3-4ab9-9687-838530baf244}.
+===> 2020-02-12 08:52:42.424 +01:00 [Debug] Considering key {96ce2e1e-2e97-4650-ad6c-e243653c90e6} with expiration date 2020-04-23 15:53:19Z as default key.
+===> 2020-02-12 08:52:42.483 +01:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2020-02-12 08:52:42.490 +01:00 [Debug] Decrypting secret element using Windows DPAPI.
+===> 2020-02-12 08:52:42.498 +01:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2020-02-12 08:52:42.518 +01:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+===> 2020-02-12 08:52:42.527 +01:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+===> 2020-02-12 08:52:42.542 +01:00 [Debug] Using key {96ce2e1e-2e97-4650-ad6c-e243653c90e6} as the default key.
+===> 2020-02-12 08:52:42.545 +01:00 [Debug] Key ring with default key {96ce2e1e-2e97-4650-ad6c-e243653c90e6} was loaded during application startup.
+===> 2020-02-12 08:52:42.628 +01:00 [Information] Startup::Configure
+===> 2020-02-12 08:52:42.967 +01:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+===> 2020-02-12 08:52:43.123 +01:00 [Debug] Initializing Razor view compiler with no compiled views.
+===> 2020-02-12 08:52:43.379 +01:00 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+===> 2020-02-12 08:52:43.730 +01:00 [Debug] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: "configuration added for 'Proxies:UseLazyLoadingProxies'".
+===> 2020-02-12 08:52:45.375 +01:00 [Warning] No type was specified for the decimal column '"AllocatedAmount"' on entity type '"Allocation"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 08:52:45.379 +01:00 [Warning] No type was specified for the decimal column '"ApplicationFee"' on entity type '"Application"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 08:52:45.382 +01:00 [Warning] No type was specified for the decimal column '"ApprovedAmount"' on entity type '"Application"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 08:52:45.387 +01:00 [Warning] No type was specified for the decimal column '"InterestRate"' on entity type '"Application"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 08:52:45.390 +01:00 [Warning] No type was specified for the decimal column '"RequestedAmount"' on entity type '"Application"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 08:52:45.393 +01:00 [Warning] No type was specified for the decimal column '"DueInterest"' on entity type '"BalanceOnDate"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 08:52:45.399 +01:00 [Warning] No type was specified for the decimal column '"DuePrincipal"' on entity type '"BalanceOnDate"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 08:52:45.403 +01:00 [Warning] No type was specified for the decimal column '"LastPayment"' on entity type '"BalanceOnDate"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 08:52:45.410 +01:00 [Warning] No type was specified for the decimal column '"PaidInterest"' on entity type '"BalanceOnDate"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 08:52:45.413 +01:00 [Warning] No type was specified for the decimal column '"PaidPrincipal"' on entity type '"BalanceOnDate"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 08:52:45.416 +01:00 [Warning] No type was specified for the decimal column '"Prepaid"' on entity type '"BalanceOnDate"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 08:52:45.423 +01:00 [Warning] No type was specified for the decimal column '"TotalInterest"' on entity type '"BalanceOnDate"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 08:52:45.426 +01:00 [Warning] No type was specified for the decimal column '"TotalPrincipal"' on entity type '"BalanceOnDate"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 08:52:45.430 +01:00 [Warning] No type was specified for the decimal column '"AllocatedAmount"' on entity type '"Credit"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 08:52:45.433 +01:00 [Warning] No type was specified for the decimal column '"Amount"' on entity type '"Credit"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 08:52:45.436 +01:00 [Warning] No type was specified for the decimal column '"AllocatedAmount"' on entity type '"Debit"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 08:52:45.442 +01:00 [Warning] No type was specified for the decimal column '"Amount"' on entity type '"Debit"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 08:52:45.445 +01:00 [Warning] No type was specified for the decimal column '"Amount"' on entity type '"Loan"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 08:52:45.447 +01:00 [Warning] No type was specified for the decimal column '"ApplicationFee"' on entity type '"Loan"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 08:52:45.456 +01:00 [Warning] No type was specified for the decimal column '"InterestRate"' on entity type '"Loan"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 08:52:45.460 +01:00 [Warning] No type was specified for the decimal column '"Amount"' on entity type '"LoanPayment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 08:52:45.472 +01:00 [Warning] No type was specified for the decimal column '"Interest"' on entity type '"RepaymentPlan"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 08:52:45.476 +01:00 [Warning] No type was specified for the decimal column '"Principal"' on entity type '"RepaymentPlan"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 08:52:45.479 +01:00 [Warning] No type was specified for the decimal column '"TotalInstallment"' on entity type '"RepaymentPlan"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 08:52:45.545 +01:00 [Information] Entity Framework Core "3.1.0" initialized '"MFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2020-02-12 08:52:45.732 +01:00 [Debug] Opening connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 08:52:46.059 +01:00 [Debug] Opened connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 08:52:46.068 +01:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-02-12 08:52:46.080 +01:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (8ms).
+===> 2020-02-12 08:52:46.094 +01:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-02-12 08:52:46.141 +01:00 [Information] Executed DbCommand ("44"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-02-12 08:52:46.151 +01:00 [Debug] Closing connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 08:52:46.164 +01:00 [Debug] Closed connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 08:52:46.168 +01:00 [Debug] Creating DbCommand for '"ExecuteScalar"'.
+===> 2020-02-12 08:52:46.170 +01:00 [Debug] Created DbCommand for '"ExecuteScalar"' (1ms).
+===> 2020-02-12 08:52:46.175 +01:00 [Debug] Opening connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 08:52:46.179 +01:00 [Debug] Opened connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 08:52:46.182 +01:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2020-02-12 08:52:46.212 +01:00 [Information] Executed DbCommand ("31"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2020-02-12 08:52:46.215 +01:00 [Debug] Closing connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 08:52:46.222 +01:00 [Debug] Closed connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 08:52:46.259 +01:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-12 08:52:46.260 +01:00 [Debug] Created DbCommand for '"ExecuteReader"' (1ms).
+===> 2020-02-12 08:52:46.262 +01:00 [Debug] Opening connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 08:52:46.264 +01:00 [Debug] Opened connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 08:52:46.266 +01:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2020-02-12 08:52:46.277 +01:00 [Information] Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2020-02-12 08:52:46.287 +01:00 [Debug] A data reader was disposed.
+===> 2020-02-12 08:52:46.288 +01:00 [Debug] Closing connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 08:52:46.291 +01:00 [Debug] Closed connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 08:52:46.582 +01:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    MF.Entity.Context.MFContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2020-02-12 08:52:46.619 +01:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-12 08:52:46.621 +01:00 [Debug] Created DbCommand for '"ExecuteReader"' (1ms).
+===> 2020-02-12 08:52:46.623 +01:00 [Debug] Opening connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 08:52:46.626 +01:00 [Debug] Opened connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 08:52:46.630 +01:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-12 08:52:46.692 +01:00 [Information] Executed DbCommand ("62"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-12 08:52:46.700 +01:00 [Debug] A data reader was disposed.
+===> 2020-02-12 08:52:46.705 +01:00 [Debug] Closing connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 08:52:46.708 +01:00 [Debug] Closed connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 08:52:46.713 +01:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    MF.Entity.Context.MFContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2020-02-12 08:52:46.717 +01:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-12 08:52:46.718 +01:00 [Debug] Created DbCommand for '"ExecuteReader"' (1ms).
+===> 2020-02-12 08:52:46.720 +01:00 [Debug] Opening connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 08:52:46.727 +01:00 [Debug] Opened connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 08:52:46.730 +01:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-12 08:52:46.744 +01:00 [Information] Executed DbCommand ("14"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-12 08:52:46.749 +01:00 [Debug] A data reader was disposed.
+===> 2020-02-12 08:52:46.750 +01:00 [Debug] Closing connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 08:52:46.753 +01:00 [Debug] Closed connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 08:52:46.760 +01:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    MF.Entity.Context.MFContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2020-02-12 08:52:46.765 +01:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-12 08:52:46.767 +01:00 [Debug] Created DbCommand for '"ExecuteReader"' (1ms).
+===> 2020-02-12 08:52:46.775 +01:00 [Debug] Opening connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 08:52:46.778 +01:00 [Debug] Opened connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 08:52:46.781 +01:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Contact] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-12 08:52:46.798 +01:00 [Information] Executed DbCommand ("16"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Contact] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-12 08:52:46.808 +01:00 [Debug] A data reader was disposed.
+===> 2020-02-12 08:52:46.809 +01:00 [Debug] Closing connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 08:52:46.815 +01:00 [Debug] Closed connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 08:52:46.822 +01:00 [Debug] '"MFContext"' disposed.
+===> 2020-02-12 08:52:46.885 +01:00 [Debug] Failed to locate the development https certificate at 'null'.
+===> 2020-02-12 08:52:46.968 +01:00 [Information] Now listening on: "http://localhost:44342"
+===> 2020-02-12 08:52:46.974 +01:00 [Debug] Loaded hosting startup assembly "MF.Api"
+===> 2020-02-12 08:52:47.164 +01:00 [Debug] Connection id ""0HLTFI26FMF3O"" received FIN.
+===> 2020-02-12 08:52:47.182 +01:00 [Debug] Connection id ""0HLTFI26FMF3O"" accepted.
+===> 2020-02-12 08:52:47.188 +01:00 [Debug] Connection id ""0HLTFI26FMF3O"" started.
+===> 2020-02-12 08:52:47.202 +01:00 [Debug] Connection id ""0HLTFI26FMF3O"" sending FIN because: ""The client closed the connection.""
+===> 2020-02-12 08:52:47.215 +01:00 [Debug] Connection id ""0HLTFI26FMF3O"" disconnecting.
+===> 2020-02-12 08:52:47.243 +01:00 [Debug] Connection id ""0HLTFI26FMF3O"" stopped.
+===> 2020-02-12 08:52:48.475 +01:00 [Debug] Connection id ""0HLTFI26FMF3P"" accepted.
+===> 2020-02-12 08:52:48.656 +01:00 [Debug] Connection id ""0HLTFI26FMF3P"" started.
+===> 2020-02-12 08:52:48.666 +01:00 [Debug] Connection id ""0HLTFI26FMF3Q"" received FIN.
+===> 2020-02-12 08:52:48.685 +01:00 [Debug] Connection id ""0HLTFI26FMF3Q"" accepted.
+===> 2020-02-12 08:52:48.724 +01:00 [Debug] Connection id ""0HLTFI26FMF3Q"" started.
+===> 2020-02-12 08:52:48.767 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:44342/api/info  
+===> 2020-02-12 08:52:48.803 +01:00 [Debug] Connection id ""0HLTFI26FMF3Q"" sending FIN because: ""The client closed the connection.""
+===> 2020-02-12 08:52:48.815 +01:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+===> 2020-02-12 08:52:48.817 +01:00 [Debug] Connection id ""0HLTFI26FMF3Q"" disconnecting.
+===> 2020-02-12 08:52:48.831 +01:00 [Debug] Connection id ""0HLTFI26FMF3Q"" stopped.
+===> 2020-02-12 08:52:48.976 +01:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-12 08:52:49.436 +01:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Info"'
+===> 2020-02-12 08:52:49.491 +01:00 [Information] Route matched with "{action = \"ApiInfo\", controller = \"Info\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ApiInfo()" on controller "MF.Api.Controllers.v1.InfoController" ("MF.Api").
+===> 2020-02-12 08:52:49.500 +01:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2020-02-12 08:52:49.502 +01:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-02-12 08:52:49.511 +01:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-12 08:52:49.515 +01:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-02-12 08:52:49.517 +01:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)", "Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+===> 2020-02-12 08:52:49.529 +01:00 [Debug] Executing controller factory for controller "MF.Api.Controllers.v1.InfoController" ("MF.Api")
+===> 2020-02-12 08:52:49.532 +01:00 [Debug] Executed controller factory for controller "MF.Api.Controllers.v1.InfoController" ("MF.Api")
+===> 2020-02-12 08:52:49.547 +01:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/html"
+===> 2020-02-12 08:52:49.580 +01:00 [Information] Executed action "MF.Api.Controllers.v1.InfoController.ApiInfo (MF.Api)" in 44.966ms
+===> 2020-02-12 08:52:49.585 +01:00 [Debug] Connection id ""0HLTFI26FMF3P"" completed keep alive response.
+===> 2020-02-12 08:52:49.591 +01:00 [Information] Request finished in 826.4699ms 200 text/html
+===> 2020-02-12 08:52:58.645 +01:00 [Debug] Connection id ""0HLTFI26FMF3P"" received FIN.
+===> 2020-02-12 08:52:58.648 +01:00 [Debug] Connection id ""0HLTFI26FMF3P"" sending FIN because: ""The client closed the connection.""
+===> 2020-02-12 08:52:58.652 +01:00 [Debug] Connection id ""0HLTFI26FMF3P"" disconnecting.
+===> 2020-02-12 08:52:58.660 +01:00 [Debug] Connection id ""0HLTFI26FMF3P"" stopped.
+===> 2020-02-12 16:03:22.677 +01:00 [Information] Starting web host
+===> 2020-02-12 16:03:22.824 +01:00 [Information] User profile is available. Using '"C:\Users\jovce.vretovski\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+===> 2020-02-12 16:03:22.899 +01:00 [Debug] Reading data from file '"C:\Users\jovce.vretovski\AppData\Local\ASP.NET\DataProtection-Keys\key-96ce2e1e-2e97-4650-ad6c-e243653c90e6.xml"'.
+===> 2020-02-12 16:03:22.933 +01:00 [Debug] Reading data from file '"C:\Users\jovce.vretovski\AppData\Local\ASP.NET\DataProtection-Keys\key-b398b445-7b2f-48c0-9f87-3d38aeab141a.xml"'.
+===> 2020-02-12 16:03:22.937 +01:00 [Debug] Reading data from file '"C:\Users\jovce.vretovski\AppData\Local\ASP.NET\DataProtection-Keys\key-bdfe4b72-d5b3-4ab9-9687-838530baf244.xml"'.
+===> 2020-02-12 16:03:22.949 +01:00 [Debug] Found key {96ce2e1e-2e97-4650-ad6c-e243653c90e6}.
+===> 2020-02-12 16:03:22.955 +01:00 [Debug] Found key {b398b445-7b2f-48c0-9f87-3d38aeab141a}.
+===> 2020-02-12 16:03:22.956 +01:00 [Debug] Found key {bdfe4b72-d5b3-4ab9-9687-838530baf244}.
+===> 2020-02-12 16:03:22.965 +01:00 [Debug] Considering key {96ce2e1e-2e97-4650-ad6c-e243653c90e6} with expiration date 2020-04-23 15:53:19Z as default key.
+===> 2020-02-12 16:03:23.007 +01:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2020-02-12 16:03:23.012 +01:00 [Debug] Decrypting secret element using Windows DPAPI.
+===> 2020-02-12 16:03:23.015 +01:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2020-02-12 16:03:23.023 +01:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+===> 2020-02-12 16:03:23.028 +01:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+===> 2020-02-12 16:03:23.035 +01:00 [Debug] Using key {96ce2e1e-2e97-4650-ad6c-e243653c90e6} as the default key.
+===> 2020-02-12 16:03:23.038 +01:00 [Debug] Key ring with default key {96ce2e1e-2e97-4650-ad6c-e243653c90e6} was loaded during application startup.
+===> 2020-02-12 16:03:23.093 +01:00 [Information] Startup::Configure
+===> 2020-02-12 16:03:23.221 +01:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+===> 2020-02-12 16:03:23.254 +01:00 [Debug] Initializing Razor view compiler with no compiled views.
+===> 2020-02-12 16:03:23.417 +01:00 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+===> 2020-02-12 16:03:23.515 +01:00 [Debug] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: "configuration added for 'Proxies:UseLazyLoadingProxies'".
+===> 2020-02-12 16:03:24.760 +01:00 [Warning] No type was specified for the decimal column '"AllocatedAmount"' on entity type '"Allocation"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 16:03:24.764 +01:00 [Warning] No type was specified for the decimal column '"ApplicationFee"' on entity type '"Application"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 16:03:24.767 +01:00 [Warning] No type was specified for the decimal column '"ApprovedAmount"' on entity type '"Application"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 16:03:24.771 +01:00 [Warning] No type was specified for the decimal column '"InterestRate"' on entity type '"Application"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 16:03:24.774 +01:00 [Warning] No type was specified for the decimal column '"RequestedAmount"' on entity type '"Application"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 16:03:24.779 +01:00 [Warning] No type was specified for the decimal column '"DueInterest"' on entity type '"BalanceOnDate"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 16:03:24.787 +01:00 [Warning] No type was specified for the decimal column '"DuePrincipal"' on entity type '"BalanceOnDate"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 16:03:24.790 +01:00 [Warning] No type was specified for the decimal column '"LastPayment"' on entity type '"BalanceOnDate"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 16:03:24.797 +01:00 [Warning] No type was specified for the decimal column '"PaidInterest"' on entity type '"BalanceOnDate"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 16:03:24.802 +01:00 [Warning] No type was specified for the decimal column '"PaidPrincipal"' on entity type '"BalanceOnDate"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 16:03:24.810 +01:00 [Warning] No type was specified for the decimal column '"Prepaid"' on entity type '"BalanceOnDate"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 16:03:24.815 +01:00 [Warning] No type was specified for the decimal column '"TotalInterest"' on entity type '"BalanceOnDate"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 16:03:24.820 +01:00 [Warning] No type was specified for the decimal column '"TotalPrincipal"' on entity type '"BalanceOnDate"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 16:03:24.826 +01:00 [Warning] No type was specified for the decimal column '"AllocatedAmount"' on entity type '"Credit"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 16:03:24.829 +01:00 [Warning] No type was specified for the decimal column '"Amount"' on entity type '"Credit"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 16:03:24.832 +01:00 [Warning] No type was specified for the decimal column '"AllocatedAmount"' on entity type '"Debit"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 16:03:24.836 +01:00 [Warning] No type was specified for the decimal column '"Amount"' on entity type '"Debit"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 16:03:24.842 +01:00 [Warning] No type was specified for the decimal column '"Amount"' on entity type '"Loan"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 16:03:24.845 +01:00 [Warning] No type was specified for the decimal column '"ApplicationFee"' on entity type '"Loan"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 16:03:24.848 +01:00 [Warning] No type was specified for the decimal column '"InterestRate"' on entity type '"Loan"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 16:03:24.850 +01:00 [Warning] No type was specified for the decimal column '"Amount"' on entity type '"LoanPayment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 16:03:24.852 +01:00 [Warning] No type was specified for the decimal column '"Interest"' on entity type '"RepaymentPlan"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 16:03:24.856 +01:00 [Warning] No type was specified for the decimal column '"Principal"' on entity type '"RepaymentPlan"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 16:03:24.859 +01:00 [Warning] No type was specified for the decimal column '"TotalInstallment"' on entity type '"RepaymentPlan"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+===> 2020-02-12 16:03:24.911 +01:00 [Information] Entity Framework Core "3.1.0" initialized '"MFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2020-02-12 16:03:25.082 +01:00 [Debug] Opening connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:03:25.380 +01:00 [Debug] Opened connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:03:25.388 +01:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2020-02-12 16:03:25.403 +01:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (8ms).
+===> 2020-02-12 16:03:25.422 +01:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-02-12 16:03:25.467 +01:00 [Information] Executed DbCommand ("48"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2020-02-12 16:03:25.474 +01:00 [Debug] Closing connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:03:25.483 +01:00 [Debug] Closed connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:03:25.488 +01:00 [Debug] Creating DbCommand for '"ExecuteScalar"'.
+===> 2020-02-12 16:03:25.489 +01:00 [Debug] Created DbCommand for '"ExecuteScalar"' (1ms).
+===> 2020-02-12 16:03:25.491 +01:00 [Debug] Opening connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:03:25.495 +01:00 [Debug] Opened connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:03:25.499 +01:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2020-02-12 16:03:25.540 +01:00 [Information] Executed DbCommand ("41"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2020-02-12 16:03:25.545 +01:00 [Debug] Closing connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:03:25.549 +01:00 [Debug] Closed connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:03:25.589 +01:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-12 16:03:25.593 +01:00 [Debug] Created DbCommand for '"ExecuteReader"' (2ms).
+===> 2020-02-12 16:03:25.595 +01:00 [Debug] Opening connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:03:25.597 +01:00 [Debug] Opened connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:03:25.601 +01:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2020-02-12 16:03:25.611 +01:00 [Information] Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2020-02-12 16:03:25.621 +01:00 [Debug] A data reader was disposed.
+===> 2020-02-12 16:03:25.623 +01:00 [Debug] Closing connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:03:25.625 +01:00 [Debug] Closed connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:03:25.884 +01:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    MF.Entity.Context.MFContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2020-02-12 16:03:25.915 +01:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-12 16:03:25.916 +01:00 [Debug] Created DbCommand for '"ExecuteReader"' (1ms).
+===> 2020-02-12 16:03:25.920 +01:00 [Debug] Opening connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:03:25.922 +01:00 [Debug] Opened connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:03:25.924 +01:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-12 16:03:25.932 +01:00 [Information] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-12 16:03:25.942 +01:00 [Debug] A data reader was disposed.
+===> 2020-02-12 16:03:25.943 +01:00 [Debug] Closing connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:03:25.945 +01:00 [Debug] Closed connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:03:25.951 +01:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    MF.Entity.Context.MFContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2020-02-12 16:03:25.958 +01:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-12 16:03:25.959 +01:00 [Debug] Created DbCommand for '"ExecuteReader"' (1ms).
+===> 2020-02-12 16:03:25.963 +01:00 [Debug] Opening connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:03:25.965 +01:00 [Debug] Opened connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:03:25.969 +01:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-12 16:03:25.976 +01:00 [Information] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-12 16:03:25.981 +01:00 [Debug] A data reader was disposed.
+===> 2020-02-12 16:03:25.984 +01:00 [Debug] Closing connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:03:25.987 +01:00 [Debug] Closed connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:03:25.991 +01:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    MF.Entity.Context.MFContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2020-02-12 16:03:25.999 +01:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-12 16:03:26.001 +01:00 [Debug] Created DbCommand for '"ExecuteReader"' (2ms).
+===> 2020-02-12 16:03:26.003 +01:00 [Debug] Opening connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:03:26.006 +01:00 [Debug] Opened connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:03:26.009 +01:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Contact] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-12 16:03:26.019 +01:00 [Information] Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Contact] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2020-02-12 16:03:26.024 +01:00 [Debug] A data reader was disposed.
+===> 2020-02-12 16:03:26.025 +01:00 [Debug] Closing connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:03:26.027 +01:00 [Debug] Closed connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:03:26.033 +01:00 [Debug] '"MFContext"' disposed.
+===> 2020-02-12 16:03:26.093 +01:00 [Debug] Failed to locate the development https certificate at 'null'.
+===> 2020-02-12 16:03:26.144 +01:00 [Information] Now listening on: "http://localhost:44342"
+===> 2020-02-12 16:03:26.145 +01:00 [Debug] Loaded hosting startup assembly "MF.Api"
+===> 2020-02-12 16:03:26.283 +01:00 [Debug] Connection id ""0HLTFPIR4NRCN"" received FIN.
+===> 2020-02-12 16:03:26.304 +01:00 [Debug] Connection id ""0HLTFPIR4NRCN"" accepted.
+===> 2020-02-12 16:03:26.311 +01:00 [Debug] Connection id ""0HLTFPIR4NRCN"" started.
+===> 2020-02-12 16:03:26.323 +01:00 [Debug] Connection id ""0HLTFPIR4NRCN"" sending FIN because: ""The client closed the connection.""
+===> 2020-02-12 16:03:26.330 +01:00 [Debug] Connection id ""0HLTFPIR4NRCN"" disconnecting.
+===> 2020-02-12 16:03:26.340 +01:00 [Debug] Connection id ""0HLTFPIR4NRCN"" stopped.
+===> 2020-02-12 16:03:27.339 +01:00 [Debug] Connection id ""0HLTFPIR4NRCO"" accepted.
+===> 2020-02-12 16:03:27.405 +01:00 [Debug] Connection id ""0HLTFPIR4NRCO"" started.
+===> 2020-02-12 16:03:27.440 +01:00 [Debug] Connection id ""0HLTFPIR4NRCP"" accepted.
+===> 2020-02-12 16:03:27.503 +01:00 [Debug] Connection id ""0HLTFPIR4NRCP"" started.
+===> 2020-02-12 16:03:27.556 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:44342/api/info  
+===> 2020-02-12 16:03:27.561 +01:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+===> 2020-02-12 16:03:27.687 +01:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-12 16:03:27.946 +01:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Info"'
+===> 2020-02-12 16:03:28.005 +01:00 [Information] Route matched with "{action = \"ApiInfo\", controller = \"Info\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ApiInfo()" on controller "MF.Api.Controllers.v1.InfoController" ("MF.Api").
+===> 2020-02-12 16:03:28.011 +01:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2020-02-12 16:03:28.015 +01:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-02-12 16:03:28.023 +01:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-12 16:03:28.030 +01:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-02-12 16:03:28.033 +01:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)", "Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+===> 2020-02-12 16:03:28.041 +01:00 [Debug] Executing controller factory for controller "MF.Api.Controllers.v1.InfoController" ("MF.Api")
+===> 2020-02-12 16:03:28.045 +01:00 [Debug] Executed controller factory for controller "MF.Api.Controllers.v1.InfoController" ("MF.Api")
+===> 2020-02-12 16:03:28.065 +01:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/html"
+===> 2020-02-12 16:03:28.102 +01:00 [Information] Executed action "MF.Api.Controllers.v1.InfoController.ApiInfo (MF.Api)" in 55.9519ms
+===> 2020-02-12 16:03:28.106 +01:00 [Debug] Connection id ""0HLTFPIR4NRCO"" completed keep alive response.
+===> 2020-02-12 16:03:28.116 +01:00 [Information] Request finished in 571.4368ms 200 text/html
+===> 2020-02-12 16:03:30.848 +01:00 [Debug] Connection id ""0HLTFPIR4NRCO"" received FIN.
+===> 2020-02-12 16:03:30.848 +01:00 [Debug] Connection id ""0HLTFPIR4NRCP"" received FIN.
+===> 2020-02-12 16:03:30.852 +01:00 [Debug] Connection id ""0HLTFPIR4NRCO"" sending FIN because: ""The client closed the connection.""
+===> 2020-02-12 16:03:30.857 +01:00 [Debug] Connection id ""0HLTFPIR4NRCP"" sending FIN because: ""The client closed the connection.""
+===> 2020-02-12 16:03:30.866 +01:00 [Debug] Connection id ""0HLTFPIR4NRCO"" disconnecting.
+===> 2020-02-12 16:03:30.878 +01:00 [Debug] Connection id ""0HLTFPIR4NRCP"" disconnecting.
+===> 2020-02-12 16:03:30.886 +01:00 [Debug] Connection id ""0HLTFPIR4NRCO"" stopped.
+===> 2020-02-12 16:03:30.886 +01:00 [Debug] Connection id ""0HLTFPIR4NRCP"" stopped.
+===> 2020-02-12 16:03:39.224 +01:00 [Debug] Connection id ""0HLTFPIR4NRCQ"" accepted.
+===> 2020-02-12 16:03:39.230 +01:00 [Debug] Connection id ""0HLTFPIR4NRCR"" accepted.
+===> 2020-02-12 16:03:39.230 +01:00 [Debug] Connection id ""0HLTFPIR4NRCQ"" started.
+===> 2020-02-12 16:03:39.237 +01:00 [Debug] Connection id ""0HLTFPIR4NRCR"" started.
+===> 2020-02-12 16:03:39.242 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:44342/swagger/index.html  
+===> 2020-02-12 16:03:39.244 +01:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-12 16:03:39.256 +01:00 [Debug] Request did not match any routes
+===> 2020-02-12 16:03:39.366 +01:00 [Debug] Connection id ""0HLTFPIR4NRCR"" completed keep alive response.
+===> 2020-02-12 16:03:39.372 +01:00 [Information] Request finished in 129.5899ms 200 text/html;charset=utf-8
+===> 2020-02-12 16:03:39.735 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:44342/swagger/v1/swagger.json  
+===> 2020-02-12 16:03:39.764 +01:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-12 16:03:39.769 +01:00 [Debug] Request did not match any routes
+===> 2020-02-12 16:03:39.990 +01:00 [Debug] Connection id ""0HLTFPIR4NRCR"" completed keep alive response.
+===> 2020-02-12 16:03:39.992 +01:00 [Information] Request finished in 257.2158ms 200 application/json;charset=utf-8
+===> 2020-02-12 16:03:40.854 +01:00 [Debug] Connection id ""0HLTFPIR4NRCR"" received FIN.
+===> 2020-02-12 16:03:40.854 +01:00 [Debug] Connection id ""0HLTFPIR4NRCQ"" received FIN.
+===> 2020-02-12 16:03:40.871 +01:00 [Debug] Connection id ""0HLTFPIR4NRCR"" disconnecting.
+===> 2020-02-12 16:03:40.908 +01:00 [Debug] Connection id ""0HLTFPIR4NRCR"" sending FIN because: ""The client closed the connection.""
+===> 2020-02-12 16:03:40.909 +01:00 [Debug] Connection id ""0HLTFPIR4NRCQ"" disconnecting.
+===> 2020-02-12 16:03:40.915 +01:00 [Debug] Connection id ""0HLTFPIR4NRCR"" stopped.
+===> 2020-02-12 16:03:40.917 +01:00 [Debug] Connection id ""0HLTFPIR4NRCQ"" sending FIN because: ""The client closed the connection.""
+===> 2020-02-12 16:03:40.936 +01:00 [Debug] Connection id ""0HLTFPIR4NRCQ"" stopped.
+===> 2020-02-12 16:06:36.850 +01:00 [Debug] Connection id ""0HLTFPIR4NRCS"" received FIN.
+===> 2020-02-12 16:06:36.858 +01:00 [Debug] Connection id ""0HLTFPIR4NRCS"" accepted.
+===> 2020-02-12 16:06:36.875 +01:00 [Debug] Connection id ""0HLTFPIR4NRCS"" started.
+===> 2020-02-12 16:06:36.877 +01:00 [Debug] Connection id ""0HLTFPIR4NRCT"" accepted.
+===> 2020-02-12 16:06:36.879 +01:00 [Debug] Connection id ""0HLTFPIR4NRCS"" sending FIN because: ""The client closed the connection.""
+===> 2020-02-12 16:06:36.889 +01:00 [Debug] Connection id ""0HLTFPIR4NRCT"" started.
+===> 2020-02-12 16:06:36.896 +01:00 [Debug] Connection id ""0HLTFPIR4NRCS"" disconnecting.
+===> 2020-02-12 16:06:36.900 +01:00 [Debug] Connection id ""0HLTFPIR4NRCS"" stopped.
+===> 2020-02-12 16:06:36.900 +01:00 [Information] Request starting HTTP/1.1 POST http://localhost:44342/api/Token application/json-patch+json 72
+===> 2020-02-12 16:06:36.905 +01:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-02-12 16:06:36.908 +01:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Token"'
+===> 2020-02-12 16:06:36.934 +01:00 [Information] Route matched with "{action = \"Create\", controller = \"Token\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Create(LoginModel)" on controller "JWT.Controllers.TokenController" ("MF.Api").
+===> 2020-02-12 16:06:36.938 +01:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2020-02-12 16:06:36.940 +01:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-02-12 16:06:36.943 +01:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)", "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-12 16:06:36.955 +01:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-02-12 16:06:36.957 +01:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-12 16:06:36.967 +01:00 [Debug] Executing controller factory for controller "JWT.Controllers.TokenController" ("MF.Api")
+===> 2020-02-12 16:06:37.313 +01:00 [Debug] Executed controller factory for controller "JWT.Controllers.TokenController" ("MF.Api")
+===> 2020-02-12 16:06:37.325 +01:00 [Debug] Attempting to bind parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"' ...
+===> 2020-02-12 16:06:37.335 +01:00 [Debug] Attempting to bind parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"' using the name '""' in request data ...
+===> 2020-02-12 16:06:37.338 +01:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter"' for content type '"application/json-patch+json"'.
+===> 2020-02-12 16:06:37.341 +01:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter"' for content type '"application/json-patch+json"'.
+===> 2020-02-12 16:06:37.358 +01:00 [Debug] Connection id ""0HLTFPIR4NRCT"", Request id ""0HLTFPIR4NRCT:00000001"": started reading request body.
+===> 2020-02-12 16:06:37.362 +01:00 [Debug] Connection id ""0HLTFPIR4NRCT"", Request id ""0HLTFPIR4NRCT:00000001"": done reading request body.
+===> 2020-02-12 16:06:37.476 +01:00 [Debug] Done attempting to bind parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"'.
+===> 2020-02-12 16:06:37.480 +01:00 [Debug] Done attempting to bind parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"'.
+===> 2020-02-12 16:06:37.482 +01:00 [Debug] Attempting to validate the bound parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"' ...
+===> 2020-02-12 16:06:37.489 +01:00 [Debug] Done attempting to validate the bound parameter '"login"' of type '"JWT.Controllers.TokenController+LoginModel"'.
+===> 2020-02-12 16:06:37.508 +01:00 [Information] Entity Framework Core "3.1.0" initialized '"MFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2020-02-12 16:06:37.624 +01:00 [Debug] "queryContext => new QueryingEnumerable<User>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, User>, 
+    MF.Entity.Context.MFContext, 
+    DiagnosticsLogger<Query>
+)"
+===> 2020-02-12 16:06:37.641 +01:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-12 16:06:37.643 +01:00 [Debug] Created DbCommand for '"ExecuteReader"' (1ms).
+===> 2020-02-12 16:06:37.654 +01:00 [Debug] Opening connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:06:37.656 +01:00 [Debug] Opened connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:06:37.667 +01:00 [Debug] Executing DbCommand [Parameters=["@__login_Username_0='?' (Size = 30)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[AccountId], [u].[Description], [u].[Email], [u].[FirstName], [u].[IsActive], [u].[IsAdminRole], [u].[LastName], [u].[Password], [u].[Roles], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__login_Username_0"
+===> 2020-02-12 16:06:37.718 +01:00 [Information] Executed DbCommand ("59"ms) [Parameters=["@__login_Username_0='?' (Size = 30)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[AccountId], [u].[Description], [u].[Email], [u].[FirstName], [u].[IsActive], [u].[IsAdminRole], [u].[LastName], [u].[Password], [u].[Roles], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__login_Username_0"
+===> 2020-02-12 16:06:37.763 +01:00 [Debug] Context '"MFContext"' started tracking '"User"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2020-02-12 16:06:37.855 +01:00 [Debug] Navigation property '"Account"' of entity type '"UserProxy"' is being lazy-loaded.
+===> 2020-02-12 16:06:37.888 +01:00 [Debug] "queryContext => new QueryingEnumerable<Account>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, Account>, 
+    MF.Entity.Context.MFContext, 
+    DiagnosticsLogger<Query>
+)"
+===> 2020-02-12 16:06:37.892 +01:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-12 16:06:37.894 +01:00 [Debug] Created DbCommand for '"ExecuteReader"' (2ms).
+===> 2020-02-12 16:06:37.897 +01:00 [Debug] Executing DbCommand [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[Description], [a].[Email], [a].[IsActive], [a].[IsTrial], [a].[Name], [a].[SetActive]
+FROM [Accounts] AS [a]
+WHERE [a].[Id] = @__p_0"
+===> 2020-02-12 16:06:37.906 +01:00 [Information] Executed DbCommand ("10"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[Description], [a].[Email], [a].[IsActive], [a].[IsTrial], [a].[Name], [a].[SetActive]
+FROM [Accounts] AS [a]
+WHERE [a].[Id] = @__p_0"
+===> 2020-02-12 16:06:37.918 +01:00 [Debug] Context '"MFContext"' started tracking '"Account"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2020-02-12 16:06:37.965 +01:00 [Debug] A data reader was disposed.
+===> 2020-02-12 16:06:38.002 +01:00 [Debug] Navigation property '"Users"' of entity type '"AccountProxy"' is being lazy-loaded.
+===> 2020-02-12 16:06:38.015 +01:00 [Debug] "queryContext => new QueryingEnumerable<User>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, User>, 
+    MF.Entity.Context.MFContext, 
+    DiagnosticsLogger<Query>
+)"
+===> 2020-02-12 16:06:38.020 +01:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-12 16:06:38.022 +01:00 [Debug] Created DbCommand for '"ExecuteReader"' (2ms).
+===> 2020-02-12 16:06:38.030 +01:00 [Debug] Executing DbCommand [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[AccountId], [u].[Description], [u].[Email], [u].[FirstName], [u].[IsActive], [u].[IsAdminRole], [u].[LastName], [u].[Password], [u].[Roles], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[AccountId] = @__p_0"
+===> 2020-02-12 16:06:38.039 +01:00 [Information] Executed DbCommand ("9"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[AccountId], [u].[Description], [u].[Email], [u].[FirstName], [u].[IsActive], [u].[IsAdminRole], [u].[LastName], [u].[Password], [u].[Roles], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[AccountId] = @__p_0"
+===> 2020-02-12 16:06:38.046 +01:00 [Debug] A data reader was disposed.
+===> 2020-02-12 16:06:38.051 +01:00 [Debug] A data reader was disposed.
+===> 2020-02-12 16:06:38.053 +01:00 [Debug] Closing connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:06:38.055 +01:00 [Debug] Closed connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:06:38.131 +01:00 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+===> 2020-02-12 16:06:38.138 +01:00 [Debug] No information found on request to perform content negotiation.
+===> 2020-02-12 16:06:38.139 +01:00 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+===> 2020-02-12 16:06:38.142 +01:00 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+===> 2020-02-12 16:06:38.145 +01:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"' and content type '"application/json"' to write the response.
+===> 2020-02-12 16:06:38.148 +01:00 [Information] Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+===> 2020-02-12 16:06:38.172 +01:00 [Information] Executed action "JWT.Controllers.TokenController.Create (MF.Api)" in 1206.0816ms
+===> 2020-02-12 16:06:38.174 +01:00 [Debug] Connection id ""0HLTFPIR4NRCT"" completed keep alive response.
+===> 2020-02-12 16:06:38.177 +01:00 [Debug] '"MFContext"' disposed.
+===> 2020-02-12 16:06:38.179 +01:00 [Information] Request finished in 1279.3572ms 200 application/json; charset=utf-8
+===> 2020-02-12 16:07:03.560 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:44342/api/CityAsync application/json-patch+json 
+===> 2020-02-12 16:07:03.653 +01:00 [Information] Successfully validated the token.
+===> 2020-02-12 16:07:03.655 +01:00 [Debug] AuthenticationScheme: "Bearer" was successfully authenticated.
+===> 2020-02-12 16:07:03.657 +01:00 [Debug] Request successfully matched the route with name 'null' and template '"api/CityAsync"'
+===> 2020-02-12 16:07:03.661 +01:00 [Debug] Action '"MF.Api.Controllers.CityAsyncController.Create (MF.Api)"' with id '"c003f929-e457-4d56-8323-a01321f6c167"' did not match the constraint '"Microsoft.AspNetCore.Mvc.ActionConstraints.HttpMethodActionConstraint"'
+===> 2020-02-12 16:07:03.674 +01:00 [Information] Route matched with "{action = \"GetAll\", controller = \"CityAsync\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[MF.Domain.CityViewModel]] GetAll()" on controller "MF.Api.Controllers.CityAsyncController" ("MF.Api").
+===> 2020-02-12 16:07:03.678 +01:00 [Debug] Execution plan of "authorization" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"]
+===> 2020-02-12 16:07:03.687 +01:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-02-12 16:07:03.690 +01:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-12 16:07:03.692 +01:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-02-12 16:07:03.696 +01:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-12 16:07:03.720 +01:00 [Information] Authorization was successful.
+===> 2020-02-12 16:07:03.722 +01:00 [Debug] Executing controller factory for controller "MF.Api.Controllers.CityAsyncController" ("MF.Api")
+===> 2020-02-12 16:07:03.725 +01:00 [Debug] Executed controller factory for controller "MF.Api.Controllers.CityAsyncController" ("MF.Api")
+===> 2020-02-12 16:07:03.778 +01:00 [Information] Entity Framework Core "3.1.0" initialized '"MFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2020-02-12 16:07:03.794 +01:00 [Debug] "queryContext => new QueryingEnumerable<City>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, City>, 
+    MF.Entity.Context.MFContext, 
+    DiagnosticsLogger<Query>
+)"
+===> 2020-02-12 16:07:03.820 +01:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-12 16:07:03.822 +01:00 [Debug] Created DbCommand for '"ExecuteReader"' (1ms).
+===> 2020-02-12 16:07:03.831 +01:00 [Debug] Opening connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:07:03.837 +01:00 [Debug] Opened connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:07:03.841 +01:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[Name]
+FROM [City] AS [c]"
+===> 2020-02-12 16:07:03.875 +01:00 [Information] Executed DbCommand ("35"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[Name]
+FROM [City] AS [c]"
+===> 2020-02-12 16:07:03.910 +01:00 [Debug] Context '"MFContext"' started tracking '"City"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2020-02-12 16:07:03.924 +01:00 [Debug] A data reader was disposed.
+===> 2020-02-12 16:07:03.928 +01:00 [Debug] Closing connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:07:03.935 +01:00 [Debug] Closed connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:07:03.951 +01:00 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+===> 2020-02-12 16:07:03.954 +01:00 [Debug] No information found on request to perform content negotiation.
+===> 2020-02-12 16:07:03.955 +01:00 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+===> 2020-02-12 16:07:03.957 +01:00 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+===> 2020-02-12 16:07:03.958 +01:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"' and content type '"application/json"' to write the response.
+===> 2020-02-12 16:07:03.962 +01:00 [Information] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[MF.Domain.CityViewModel, MF.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+===> 2020-02-12 16:07:03.975 +01:00 [Information] Executed action "MF.Api.Controllers.CityAsyncController.GetAll (MF.Api)" in 266.7711ms
+===> 2020-02-12 16:07:03.983 +01:00 [Debug] Connection id ""0HLTFPIR4NRCT"" completed keep alive response.
+===> 2020-02-12 16:07:03.985 +01:00 [Debug] '"MFContext"' disposed.
+===> 2020-02-12 16:07:03.990 +01:00 [Information] Request finished in 430.9369ms 200 application/json; charset=utf-8
+===> 2020-02-12 16:07:14.373 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:44342/api/ApplicationAsync application/json-patch+json 
+===> 2020-02-12 16:07:14.398 +01:00 [Information] Successfully validated the token.
+===> 2020-02-12 16:07:14.414 +01:00 [Debug] AuthenticationScheme: "Bearer" was successfully authenticated.
+===> 2020-02-12 16:07:14.421 +01:00 [Debug] Request successfully matched the route with name 'null' and template '"api/ApplicationAsync"'
+===> 2020-02-12 16:07:14.445 +01:00 [Debug] Action '"MF.Api.Controllers.ApplicationAsyncController.Create (MF.Api)"' with id '"68db3e23-a50b-4d54-9c08-f212b034029e"' did not match the constraint '"Microsoft.AspNetCore.Mvc.ActionConstraints.HttpMethodActionConstraint"'
+===> 2020-02-12 16:07:14.480 +01:00 [Information] Route matched with "{action = \"GetAll\", controller = \"ApplicationAsync\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[MF.Domain.ApplicationViewModel]] GetAll()" on controller "MF.Api.Controllers.ApplicationAsyncController" ("MF.Api").
+===> 2020-02-12 16:07:14.488 +01:00 [Debug] Execution plan of "authorization" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"]
+===> 2020-02-12 16:07:14.491 +01:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-02-12 16:07:14.494 +01:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-12 16:07:14.498 +01:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-02-12 16:07:14.503 +01:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-02-12 16:07:14.507 +01:00 [Information] Authorization was successful.
+===> 2020-02-12 16:07:14.508 +01:00 [Debug] Executing controller factory for controller "MF.Api.Controllers.ApplicationAsyncController" ("MF.Api")
+===> 2020-02-12 16:07:14.515 +01:00 [Debug] Executed controller factory for controller "MF.Api.Controllers.ApplicationAsyncController" ("MF.Api")
+===> 2020-02-12 16:07:14.521 +01:00 [Information] Entity Framework Core "3.1.0" initialized '"MFContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2020-02-12 16:07:14.532 +01:00 [Debug] "queryContext => new QueryingEnumerable<Application>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, Application>, 
+    MF.Entity.Context.MFContext, 
+    DiagnosticsLogger<Query>
+)"
+===> 2020-02-12 16:07:14.539 +01:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2020-02-12 16:07:14.540 +01:00 [Debug] Created DbCommand for '"ExecuteReader"' (1ms).
+===> 2020-02-12 16:07:14.541 +01:00 [Debug] Opening connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:07:14.543 +01:00 [Debug] Opened connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:07:14.545 +01:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ApplicationDate], [a].[ApplicationFee], [a].[ApplicationNumber], [a].[ApprovedAmount], [a].[ApprovedInstallments], [a].[ClientContactId], [a].[InterestRate], [a].[LoanOfficerContactId], [a].[OfficeId], [a].[RequestedAmount], [a].[RequestedInstallments], [a].[Status]
+FROM [Application] AS [a]"
+===> 2020-02-12 16:07:14.561 +01:00 [Information] Executed DbCommand ("16"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ApplicationDate], [a].[ApplicationFee], [a].[ApplicationNumber], [a].[ApprovedAmount], [a].[ApprovedInstallments], [a].[ClientContactId], [a].[InterestRate], [a].[LoanOfficerContactId], [a].[OfficeId], [a].[RequestedAmount], [a].[RequestedInstallments], [a].[Status]
+FROM [Application] AS [a]"
+===> 2020-02-12 16:07:14.566 +01:00 [Debug] A data reader was disposed.
+===> 2020-02-12 16:07:14.571 +01:00 [Debug] Closing connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:07:14.576 +01:00 [Debug] Closed connection to database '"Tanja2"' on server '"192.168.1.5\prod2014"'.
+===> 2020-02-12 16:07:14.598 +01:00 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+===> 2020-02-12 16:07:14.602 +01:00 [Debug] No information found on request to perform content negotiation.
+===> 2020-02-12 16:07:14.603 +01:00 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+===> 2020-02-12 16:07:14.610 +01:00 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+===> 2020-02-12 16:07:14.613 +01:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"' and content type '"application/json"' to write the response.
+===> 2020-02-12 16:07:14.615 +01:00 [Information] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[MF.Domain.ApplicationViewModel, MF.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+===> 2020-02-12 16:07:14.627 +01:00 [Information] Executed action "MF.Api.Controllers.ApplicationAsyncController.GetAll (MF.Api)" in 120.3431ms
+===> 2020-02-12 16:07:14.632 +01:00 [Debug] Connection id ""0HLTFPIR4NRCT"" completed keep alive response.
+===> 2020-02-12 16:07:14.640 +01:00 [Debug] '"MFContext"' disposed.
+===> 2020-02-12 16:07:14.643 +01:00 [Information] Request finished in 270.1941ms 200 application/json; charset=utf-8
+===> 2020-02-12 16:07:19.558 +01:00 [Debug] Connection id ""0HLTFPIR4NRCT"" received FIN.
+===> 2020-02-12 16:07:19.565 +01:00 [Debug] Connection id ""0HLTFPIR4NRCT"" disconnecting.
+===> 2020-02-12 16:07:19.578 +01:00 [Debug] Connection id ""0HLTFPIR4NRCT"" sending FIN because: ""The client closed the connection.""
+===> 2020-02-12 16:07:19.591 +01:00 [Debug] Connection id ""0HLTFPIR4NRCT"" stopped.

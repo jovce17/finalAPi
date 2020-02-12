@@ -39,6 +39,21 @@ namespace MF.Domain.Mapping
                 .ForPath(dest => dest.MaritialStatus.Value, input => input.MapFrom(src => Enum.GetName(typeof(Enums.MaritialStatus), src.MaritialStatus)));
 
 
+            CreateMap<ApplicationViewModel, Application>()
+                .ForPath(dest => dest.OfficeId, opts => opts.MapFrom(src => src.Office.Id))
+                .ForPath(dest => dest.ClientContactId, opts => opts.MapFrom(src => src.ClientContact.Id))
+                .ForPath(dest => dest.LoanOfficerContactId, opts => opts.MapFrom(src => src.LoanOfficerContact.Id))
+                .ForPath(dest => dest.Status, opts => opts.MapFrom(src => src.Status.Id)); ;
+            CreateMap<Application, ApplicationViewModel>()
+                .ForPath(dest => dest.Office.Id, input => input.MapFrom(src => src.OfficeId))
+                .ForPath(dest => dest.Office.Value, input => input.MapFrom(src => src.Office.Name))
+                .ForPath(dest => dest.ClientContact.Id, input => input.MapFrom(src => src.ClientContactId))
+                .ForPath(dest => dest.ClientContact.Value, input => input.MapFrom(src => src.ClientContact.Name))
+                .ForPath(dest => dest.LoanOfficerContact.Id, input => input.MapFrom(src => src.LoanOfficerContactId))
+                .ForPath(dest => dest.LoanOfficerContact.Value, input => input.MapFrom(src => src.LoanOfficerContact.Name))
+                .ForPath(dest => dest.Status.Id, input => input.MapFrom(src => src.Status))
+                .ForPath(dest => dest.Status.Value, input => input.MapFrom(src => Enum.GetName(typeof(Enums.ApplicationStatus), src.Status)));
+
 
 
 

@@ -18,3 +18,13 @@ C:\Users\Jovce\source\repos\shablon\MF\MF\MF.Entity\obj\Debug\netcoreapp3.1\MF.E
 C:\Users\Jovce\source\repos\shablon\MF\MF\MF.Entity\obj\Debug\netcoreapp3.1\MF.Entity.AssemblyInfo.cs
 C:\Users\Jovce\source\repos\shablon\MF\MF\MF.Entity\obj\Debug\netcoreapp3.1\MF.Entity.dll
 C:\Users\Jovce\source\repos\shablon\MF\MF\MF.Entity\obj\Debug\netcoreapp3.1\MF.Entity.pdb
+D:\MF\MF\MF.Entity\bin\Debug\netcoreapp3.1\MF.Entity.deps.json
+D:\MF\MF\MF.Entity\bin\Debug\netcoreapp3.1\MF.Entity.runtimeconfig.json
+D:\MF\MF\MF.Entity\bin\Debug\netcoreapp3.1\MF.Entity.runtimeconfig.dev.json
+D:\MF\MF\MF.Entity\bin\Debug\netcoreapp3.1\MF.Entity.dll
+D:\MF\MF\MF.Entity\bin\Debug\netcoreapp3.1\MF.Entity.pdb
+D:\MF\MF\MF.Entity\obj\Debug\netcoreapp3.1\MF.Entity.csprojAssemblyReference.cache
+D:\MF\MF\MF.Entity\obj\Debug\netcoreapp3.1\MF.Entity.AssemblyInfoInputs.cache
+D:\MF\MF\MF.Entity\obj\Debug\netcoreapp3.1\MF.Entity.AssemblyInfo.cs
+D:\MF\MF\MF.Entity\obj\Debug\netcoreapp3.1\MF.Entity.dll
+D:\MF\MF\MF.Entity\obj\Debug\netcoreapp3.1\MF.Entity.pdb

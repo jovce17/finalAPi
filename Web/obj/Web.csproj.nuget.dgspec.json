@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jovce\\source\\repos\\shablon\\MF\\Web\\Web.csproj": {}
+    "D:\\MF\\Web\\Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jovce\\source\\repos\\shablon\\MF\\Web\\Web.csproj": {
+    "D:\\MF\\Web\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jovce\\source\\repos\\shablon\\MF\\Web\\Web.csproj",
+        "projectUniqueName": "D:\\MF\\Web\\Web.csproj",
         "projectName": "Web",
-        "projectPath": "C:\\Users\\Jovce\\source\\repos\\shablon\\MF\\Web\\Web.csproj",
-        "packagesPath": "C:\\Users\\Jovce\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jovce\\source\\repos\\shablon\\MF\\Web\\obj\\",
+        "projectPath": "D:\\MF\\Web\\Web.csproj",
+        "packagesPath": "C:\\Users\\jovce.vretovski\\.nuget\\packages\\",
+        "outputPath": "D:\\MF\\Web\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Jovce\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jovce.vretovski\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +25,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "\\\\192.168.1.32\\DOTNET.Nuget32": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://gslake.pkgs.visualstudio.com/_packaging/AspektNugetFeed/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {

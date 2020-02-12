@@ -30,6 +30,6 @@ namespace MF.Domain
         public bool? Employee { get; set; }
 
         [JsonIgnore]  //to avoid circular serialization 
-        public virtual CityViewModel Account { get; set; }
+        public virtual CityViewModel CityV { get; set; }
     }
 }

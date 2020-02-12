@@ -20,3 +20,14 @@ C:\Users\Jovce\source\repos\shablon\MF\MF\MF.Domain\obj\Debug\netcoreapp3.1\MF.D
 C:\Users\Jovce\source\repos\shablon\MF\MF\MF.Domain\obj\Debug\netcoreapp3.1\MF.Domain.csproj.CopyComplete
 C:\Users\Jovce\source\repos\shablon\MF\MF\MF.Domain\obj\Debug\netcoreapp3.1\MF.Domain.dll
 C:\Users\Jovce\source\repos\shablon\MF\MF\MF.Domain\obj\Debug\netcoreapp3.1\MF.Domain.pdb
+D:\MF\MF\MF.Domain\bin\Debug\netcoreapp3.1\MF.Domain.deps.json
+D:\MF\MF\MF.Domain\bin\Debug\netcoreapp3.1\MF.Domain.dll
+D:\MF\MF\MF.Domain\bin\Debug\netcoreapp3.1\MF.Domain.pdb
+D:\MF\MF\MF.Domain\bin\Debug\netcoreapp3.1\MF.Entity.dll
+D:\MF\MF\MF.Domain\bin\Debug\netcoreapp3.1\MF.Entity.pdb
+D:\MF\MF\MF.Domain\obj\Debug\netcoreapp3.1\MF.Domain.csprojAssemblyReference.cache
+D:\MF\MF\MF.Domain\obj\Debug\netcoreapp3.1\MF.Domain.AssemblyInfoInputs.cache
+D:\MF\MF\MF.Domain\obj\Debug\netcoreapp3.1\MF.Domain.AssemblyInfo.cs
+D:\MF\MF\MF.Domain\obj\Debug\netcoreapp3.1\MF.Domain.csproj.CopyComplete
+D:\MF\MF\MF.Domain\obj\Debug\netcoreapp3.1\MF.Domain.dll
+D:\MF\MF\MF.Domain\obj\Debug\netcoreapp3.1\MF.Domain.pdb
