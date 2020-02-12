@@ -39,12 +39,10 @@
 					"raw": "{\r\n  \"username\": \"my@email.com\",\r\n  \"password\": \"mysecretpassword123\"\r\n}"
 				},
 				"url": {
-					"raw": "http://localhost:44342/api/Token",
-					"protocol": "http",
+					"raw": "{{localbasedURL}}/api/Token",
 					"host": [
-						"localhost"
+						"{{localbasedURL}}"
 					],
-					"port": "44342",
 					"path": [
 						"api",
 						"Token"
@@ -164,6 +162,170 @@
 					"path": [
 						"api",
 						"CityAsync"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Application",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{AuthToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": " application/json-patch+json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{localbasedURL}}/api/CityAsync",
+					"host": [
+						"{{localbasedURL}}"
+					],
+					"path": [
+						"api",
+						"CityAsync"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ApplicationApproval",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{AuthToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": " application/json-patch+json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{localbasedURL}}/api/ApplicationApprovalAsync",
+					"host": [
+						"{{localbasedURL}}"
+					],
+					"path": [
+						"api",
+						"ApplicationApprovalAsync"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Loan",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{AuthToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": " application/json-patch+json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{localbasedURL}}/api/LoanAsync",
+					"host": [
+						"{{localbasedURL}}"
+					],
+					"path": [
+						"api",
+						"LoanAsync"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RepaymentPlan",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{AuthToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": " application/json-patch+json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{localbasedURL}}/api/RepaymentPlanAsync",
+					"host": [
+						"{{localbasedURL}}"
+					],
+					"path": [
+						"api",
+						"RepaymentPlanAsync"
 					]
 				}
 			},
