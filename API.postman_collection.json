@@ -1,0 +1,206 @@
+{
+	"info": {
+		"_postman_id": "b728ec5b-6a3f-486e-b888-c4f18823d8cf",
+		"name": "API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Token",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "486459e6-2a80-4fa9-bbd7-12cfb3bd4530",
+						"exec": [
+							"",
+							"var jsonData = JSON.parse(responseBody);",
+							"pm.environment.set(\"AuthToken\",jsonData.token);",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": " application/json-patch+json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"my@email.com\",\r\n  \"password\": \"mysecretpassword123\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:44342/api/Token",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "44342",
+					"path": [
+						"api",
+						"Token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Contact",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{AuthToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": " application/json-patch+json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{localbasedURL}}/api/ContactAsync",
+					"host": [
+						"{{localbasedURL}}"
+					],
+					"path": [
+						"api",
+						"ContactAsync"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "City",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{AuthToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": " application/json-patch+json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{localbasedURL}}/api/CityAsync",
+					"host": [
+						"{{localbasedURL}}"
+					],
+					"path": [
+						"api",
+						"CityAsync"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Office",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{AuthToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": " application/json-patch+json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{localbasedURL}}/api/CityAsync",
+					"host": [
+						"{{localbasedURL}}"
+					],
+					"path": [
+						"api",
+						"CityAsync"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "Token",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "2a5d4d82-5e28-45fd-bf77-866fe527b73b",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "3e1ebecc-84dd-4cda-bae6-95d388e500ce",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

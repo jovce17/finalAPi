@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web", "Web\Web.csproj", "{6
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E600B677-D06C-4535-8D0E-F9F63EA92C97}"
 	ProjectSection(SolutionItems) = preProject
+		API.postman_collection.json = API.postman_collection.json
+		api.postman_environment.json = api.postman_environment.json
 		configs.txt = configs.txt
 	EndProjectSection
 EndProject
