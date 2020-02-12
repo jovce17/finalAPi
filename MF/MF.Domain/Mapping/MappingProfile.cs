@@ -68,6 +68,31 @@ namespace MF.Domain.Mapping
                  .ForPath(dest => dest.Status.Value, input => input.MapFrom(src => Enum.GetName(typeof(Enums.ApplicationApprovalStatus), src.Status)));
 
 
+            CreateMap<LoanViewModel, Loan>()
+                .ForPath(dest => dest.OfficeId, opts => opts.MapFrom(src => src.Office.Id))
+                .ForPath(dest => dest.ApplicationId, opts => opts.MapFrom(src => src.Application.Id))
+                .ForPath(dest => dest.ClientContactId, opts => opts.MapFrom(src => src.ClientContact.Id))
+                .ForPath(dest => dest.LoanOfficerContactId, opts => opts.MapFrom(src => src.LoanOfficerContact.Id))
+                .ForPath(dest => dest.Status, opts => opts.MapFrom(src => src.Status.Id)); ;
+            CreateMap<Loan, LoanViewModel>()
+                .ForPath(dest => dest.Office.Id, input => input.MapFrom(src => src.OfficeId))
+                .ForPath(dest => dest.Office.Value, input => input.MapFrom(src => src.Office.Name))
+                .ForPath(dest => dest.Application.Id, input => input.MapFrom(src => src.ApplicationId))
+                .ForPath(dest => dest.Application.Value, input => input.MapFrom(src => src.Application.ApplicationNumber))
+                .ForPath(dest => dest.ClientContact.Id, input => input.MapFrom(src => src.ClientContactId))
+                .ForPath(dest => dest.ClientContact.Value, input => input.MapFrom(src => src.ClientContact.Name))
+                .ForPath(dest => dest.LoanOfficerContact.Id, input => input.MapFrom(src => src.LoanOfficerContactId))
+                .ForPath(dest => dest.LoanOfficerContact.Value, input => input.MapFrom(src => src.LoanOfficerContact.Name))
+                .ForPath(dest => dest.Status.Id, input => input.MapFrom(src => src.Status))
+                .ForPath(dest => dest.Status.Value, input => input.MapFrom(src => Enum.GetName(typeof(Enums.LoanStatus), src.Status)));
+
+
+            CreateMap<RepaymentPlanViewModel, RepaymentPlan>()
+                .ForPath(dest => dest.LoanId, opts => opts.MapFrom(src => src.Loan.Id));
+            CreateMap<RepaymentPlan, RepaymentPlanViewModel>()
+                .ForPath(dest => dest.Loan.Id, opts => opts.MapFrom(src => src.LoanId))
+                .ForPath(dest => dest.Loan.Value, opts => opts.MapFrom(src => src.Loan.AgreementNumber));
+
 
 
             CreateMap<UserViewModel, User>()

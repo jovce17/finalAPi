@@ -37,5 +37,12 @@ namespace MF.Domain
             Rejected = 2
 
         }
+        public enum LoanStatus
+        {
+            New = 1,
+            Repayment = 2,
+            Closed = 3
+
+        }
     }
 }

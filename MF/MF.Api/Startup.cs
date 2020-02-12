@@ -189,6 +189,10 @@ namespace MF.Api
                 services.AddTransient(typeof(ApplicationServiceAsync<,>), typeof(ApplicationServiceAsync<,>));
                 services.AddTransient(typeof(ApplicationApprovalService<,>), typeof(ApplicationApprovalService<,>));
                 services.AddTransient(typeof(ApplicationApprovalServiceAsync<,>), typeof(ApplicationApprovalServiceAsync<,>));
+                services.AddTransient(typeof(LoanService<,>), typeof(LoanService<,>));
+                services.AddTransient(typeof(LoanServiceAsync<,>), typeof(LoanServiceAsync<,>));
+                services.AddTransient(typeof(RepaymentPlanService<,>), typeof(RepaymentPlanService<,>));
+                services.AddTransient(typeof(RepaymentPlanServiceAsync<,>), typeof(RepaymentPlanServiceAsync<,>));
                 //...add other services
                 //
                 services.AddTransient(typeof(IService<,>), typeof(GenericService<,>));
