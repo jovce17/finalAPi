@@ -32,5 +32,7 @@ namespace MF.Domain
         public DateTime? MaturityDate { get; set; }
         public DateTime? ClosingDate { get; set; }
 
+        public List<RepaymentPlanViewModel> RepaymentPlan { get; set; } = new List<RepaymentPlanViewModel>();
+
     }
 }

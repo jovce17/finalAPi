@@ -31,6 +31,7 @@ using Microsoft.AspNetCore.Mvc.ApplicationModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Versioning;
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
+using MF.Domain.Service.SP;
 
 /// <summary>
 /// Designed by AnaSoft Inc. 2019
@@ -193,6 +194,7 @@ namespace MF.Api
                 services.AddTransient(typeof(LoanServiceAsync<,>), typeof(LoanServiceAsync<,>));
                 services.AddTransient(typeof(RepaymentPlanService<,>), typeof(RepaymentPlanService<,>));
                 services.AddTransient(typeof(RepaymentPlanServiceAsync<,>), typeof(RepaymentPlanServiceAsync<,>));
+                services.AddTransient(typeof(testSP), typeof(testSP));
                 //...add other services
                 //
                 services.AddTransient(typeof(IService<,>), typeof(GenericService<,>));
