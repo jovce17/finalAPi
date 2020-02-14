@@ -2151,10 +2151,7 @@
         },
         "runtime": {
           "bin/placeholder/MF.Entity.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       }
     }
   },
@@ -7222,19 +7219,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jovce\\.nuget\\packages\\": {}
+    "C:\\Users\\jovce.vretovski\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi\\MF\\MF.Domain\\MF.Domain.csproj",
+      "projectUniqueName": "D:\\MF\\finalAPi\\MF\\MF.Domain\\MF.Domain.csproj",
       "projectName": "MF.Domain",
-      "projectPath": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi\\MF\\MF.Domain\\MF.Domain.csproj",
-      "packagesPath": "C:\\Users\\Jovce\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi\\MF\\MF.Domain\\obj\\",
+      "projectPath": "D:\\MF\\finalAPi\\MF\\MF.Domain\\MF.Domain.csproj",
+      "packagesPath": "C:\\Users\\jovce.vretovski\\.nuget\\packages\\",
+      "outputPath": "D:\\MF\\finalAPi\\MF\\MF.Domain\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Jovce\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jovce.vretovski\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7242,13 +7243,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "\\\\192.168.1.32\\DOTNET.Nuget32": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://gslake.pkgs.visualstudio.com/_packaging/AspektNugetFeed/nuget/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi\\MF\\MF.Entity\\MF.Entity.csproj": {
-              "projectPath": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi\\MF\\MF.Entity\\MF.Entity.csproj"
+            "D:\\MF\\finalAPi\\MF\\MF.Entity\\MF.Entity.csproj": {
+              "projectPath": "D:\\MF\\finalAPi\\MF\\MF.Entity\\MF.Entity.csproj"
             }
           }
         }

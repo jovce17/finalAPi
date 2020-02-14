@@ -48,9 +48,9 @@ namespace MF.Domain.Mapping
                 .ForPath(dest => dest.Office.Id, input => input.MapFrom(src => src.OfficeId))
                 .ForPath(dest => dest.Office.Value, input => input.MapFrom(src => src.Office.Name))
                 .ForPath(dest => dest.ClientContact.Id, input => input.MapFrom(src => src.ClientContactId))
-                .ForPath(dest => dest.ClientContact.Value, input => input.MapFrom(src => src.ClientContact.Name))
+                .ForPath(dest => dest.ClientContact.Value, input => input.MapFrom(src => src.ClientContact.Name+' ' + src.ClientContact.Surname))
                 .ForPath(dest => dest.LoanOfficerContact.Id, input => input.MapFrom(src => src.LoanOfficerContactId))
-                .ForPath(dest => dest.LoanOfficerContact.Value, input => input.MapFrom(src => src.LoanOfficerContact.Name))
+                .ForPath(dest => dest.LoanOfficerContact.Value, input => input.MapFrom(src => src.LoanOfficerContact.Name+ ' ' + src.LoanOfficerContact.Surname))
                 .ForPath(dest => dest.Status.Id, input => input.MapFrom(src => src.Status))
                 .ForPath(dest => dest.Status.Value, input => input.MapFrom(src => Enum.GetName(typeof(Enums.ApplicationStatus), src.Status)));
 
@@ -80,9 +80,9 @@ namespace MF.Domain.Mapping
                 .ForPath(dest => dest.Application.Id, input => input.MapFrom(src => src.ApplicationId))
                 .ForPath(dest => dest.Application.Value, input => input.MapFrom(src => src.Application.ApplicationNumber))
                 .ForPath(dest => dest.ClientContact.Id, input => input.MapFrom(src => src.ClientContactId))
-                .ForPath(dest => dest.ClientContact.Value, input => input.MapFrom(src => src.ClientContact.Name))
+                .ForPath(dest => dest.ClientContact.Value, input => input.MapFrom(src => src.ClientContact.Name + ' ' + src.ClientContact.Surname))
                 .ForPath(dest => dest.LoanOfficerContact.Id, input => input.MapFrom(src => src.LoanOfficerContactId))
-                .ForPath(dest => dest.LoanOfficerContact.Value, input => input.MapFrom(src => src.LoanOfficerContact.Name))
+                .ForPath(dest => dest.LoanOfficerContact.Value, input => input.MapFrom(src => src.LoanOfficerContact.Name + ' ' + src.LoanOfficerContact.Surname))
                 .ForPath(dest => dest.Status.Id, input => input.MapFrom(src => src.Status))
                 .ForPath(dest => dest.Status.Value, input => input.MapFrom(src => Enum.GetName(typeof(Enums.LoanStatus), src.Status)));
 
