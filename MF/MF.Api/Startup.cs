@@ -258,6 +258,7 @@ namespace MF.Api
                 app.UseAuthentication(); //needs to be up in the pipeline, before MVC
                 app.UseAuthorization();
 
+                
                 app.UseMvc();
 
                 //Swagger API documentation
