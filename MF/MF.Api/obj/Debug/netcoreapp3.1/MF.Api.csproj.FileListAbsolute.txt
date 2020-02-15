@@ -338,8 +338,6 @@ C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Api\bin\Debug\netcoreapp3.1\M
 C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Api\obj\Debug\netcoreapp3.1\MF.Api.csprojAssemblyReference.cache
 C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Api\obj\Debug\netcoreapp3.1\staticwebassets\MF.Api.StaticWebAssets.Manifest.cache
 C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Api\obj\Debug\netcoreapp3.1\staticwebassets\MF.Api.StaticWebAssets.xml
-C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Api\obj\Debug\netcoreapp3.1\MF.Api.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Api\obj\Debug\netcoreapp3.1\MF.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Api\obj\Debug\netcoreapp3.1\MF.Api.AssemblyInfoInputs.cache
 C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Api\obj\Debug\netcoreapp3.1\MF.Api.AssemblyInfo.cs
 C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Api\obj\Debug\netcoreapp3.1\MF.Api.RazorTargetAssemblyInfo.cache
@@ -433,3 +431,9 @@ D:\MF\finalAPi\MF\MF.Api\obj\Debug\netcoreapp3.1\MF.Api.RazorTargetAssemblyInfo.
 D:\MF\finalAPi\MF\MF.Api\obj\Debug\netcoreapp3.1\MF.Api.csproj.CopyComplete
 D:\MF\finalAPi\MF\MF.Api\obj\Debug\netcoreapp3.1\MF.Api.dll
 D:\MF\finalAPi\MF\MF.Api\obj\Debug\netcoreapp3.1\MF.Api.pdb
+C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.OData.dll
+C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Api\bin\Debug\netcoreapp3.1\Microsoft.OData.Core.dll
+C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Api\bin\Debug\netcoreapp3.1\Microsoft.OData.Edm.dll
+C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Api\bin\Debug\netcoreapp3.1\Microsoft.Spatial.dll
+C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Api\obj\Debug\netcoreapp3.1\MF.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Jovce\source\repos\shablon\finalAPi\MF\MF.Api\obj\Debug\netcoreapp3.1\MF.Api.MvcApplicationPartsAssemblyInfo.cache

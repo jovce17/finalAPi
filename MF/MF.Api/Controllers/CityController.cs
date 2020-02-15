@@ -8,9 +8,11 @@ using MF.Domain.Service;
 using Microsoft.Extensions.Logging;
 using Serilog;
 using MF.Entity;
+using Microsoft.AspNet.OData;
 
 namespace MF.Api.Controllers
 {
+    
     [ApiVersion("1.0")]
     [Route("api/[controller]")]
     //[Route("api/v{version:apiVersion}/[controller]")]
@@ -26,10 +28,10 @@ namespace MF.Api.Controllers
         //get all
         [Authorize]
         [HttpGet]
+        [EnableQuery()]
         public IEnumerable<CityViewModel> GetAll()
         {
-            var test = _cityService.DoNothing();
-            var items = _cityService.GetAll();
+            var items = _cityService.GetAll().AsQueryable();
             return items;
         }
 

@@ -301,6 +301,19 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "Microsoft.AspNetCore.OData/7.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.OData.Core": "[7.6.1, 8.0.0)",
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.OData.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.OData.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.WebUtilities/2.1.0": {
         "type": "package",
         "dependencies": {
@@ -628,6 +641,37 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.OData.Core/7.6.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.OData.Edm": "[7.6.1]",
+          "Microsoft.Spatial": "[7.6.1]"
+        },
+        "compile": {
+          "lib/netstandard1.1/Microsoft.OData.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.OData.Core.dll": {}
+        }
+      },
+      "Microsoft.OData.Edm/7.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.1/Microsoft.OData.Edm.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.OData.Edm.dll": {}
+        }
+      },
+      "Microsoft.Spatial/7.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.1/Microsoft.Spatial.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.Spatial.dll": {}
         }
       },
       "Microsoft.Win32.Primitives/4.3.0": {
@@ -2453,6 +2497,21 @@
         "microsoft.aspnetcore.mvc.newtonsoftjson.nuspec"
       ]
     },
+    "Microsoft.AspNetCore.OData/7.3.0": {
+      "sha512": "VsNdC5TenN6r6Zk3SHb05Ng9QGdV5K03AZlpOFc1c4k5/6R3zxJ3dfVJ7CjR0/dS0LdOtfX9bnanQ0ujrfT4Sg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.odata/7.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.OData.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.OData.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.OData.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.OData.xml",
+        "microsoft.aspnetcore.odata.7.3.0.nupkg.sha512",
+        "microsoft.aspnetcore.odata.nuspec"
+      ]
+    },
     "Microsoft.AspNetCore.WebUtilities/2.1.0": {
       "sha512": "xBy8JGXQ3tVSYzLl/LtN3c9EeB75khFSB2Kw2HWmF+McU0Ltva7R4JBRH0Rb4LgkcjYyyJdf+09PZalQFwsT+Q==",
       "type": "package",
@@ -2867,6 +2926,51 @@
         "microsoft.netcore.targets.1.1.0.nupkg.sha512",
         "microsoft.netcore.targets.nuspec",
         "runtime.json"
+      ]
+    },
+    "Microsoft.OData.Core/7.6.1": {
+      "sha512": "dm4dAbgDehOv3sgxzlZW+FUtnn93irsv15uDJRNXKk5LUiA5ejZFhCp5hUd/JcUr5Hb0T0SAlhXxlPEKPEeavg==",
+      "type": "package",
+      "path": "microsoft.odata.core/7.6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.1/Microsoft.OData.Core.dll",
+        "lib/netstandard1.1/Microsoft.OData.Core.xml",
+        "lib/portable-net45+win8+wpa81/Microsoft.OData.Core.dll",
+        "lib/portable-net45+win8+wpa81/Microsoft.OData.Core.xml",
+        "microsoft.odata.core.7.6.1.nupkg.sha512",
+        "microsoft.odata.core.nuspec"
+      ]
+    },
+    "Microsoft.OData.Edm/7.6.1": {
+      "sha512": "bi1IM0Uctpp34YnVJGy7afsTViArP/sQjFGWyg2p+z/16xumNUmG0H4y8xnjM57fJjGZHyC7Oe6WHbnJDcM1Pw==",
+      "type": "package",
+      "path": "microsoft.odata.edm/7.6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.1/Microsoft.OData.Edm.dll",
+        "lib/netstandard1.1/Microsoft.OData.Edm.xml",
+        "lib/portable-net45+win8+wpa81/Microsoft.OData.Edm.dll",
+        "lib/portable-net45+win8+wpa81/Microsoft.OData.Edm.xml",
+        "microsoft.odata.edm.7.6.1.nupkg.sha512",
+        "microsoft.odata.edm.nuspec"
+      ]
+    },
+    "Microsoft.Spatial/7.6.1": {
+      "sha512": "3gZZwLABqkyRHRuVHTHUUbEsyasSX/bD1c/UBQpoFPC0yElszBYdv80/awaaPjzeeQkfFLyGoxNySNkLTbHKOA==",
+      "type": "package",
+      "path": "microsoft.spatial/7.6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.1/Microsoft.Spatial.dll",
+        "lib/netstandard1.1/Microsoft.Spatial.xml",
+        "lib/portable-net45+win8+wpa81/Microsoft.Spatial.dll",
+        "lib/portable-net45+win8+wpa81/Microsoft.Spatial.xml",
+        "microsoft.spatial.7.6.1.nupkg.sha512",
+        "microsoft.spatial.nuspec"
       ]
     },
     "Microsoft.Win32.Primitives/4.3.0": {
@@ -7020,27 +7124,24 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "IdentityServer4 >= 2.3.2",
-      "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 3.1.0"
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 3.1.0",
+      "Microsoft.AspNetCore.OData >= 7.3.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jovce.vretovski\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Jovce\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MF\\finalAPi\\MF\\IndentityServer\\IndentityServer.csproj",
+      "projectUniqueName": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi\\MF\\IndentityServer\\IndentityServer.csproj",
       "projectName": "IndentityServer",
-      "projectPath": "D:\\MF\\finalAPi\\MF\\IndentityServer\\IndentityServer.csproj",
-      "packagesPath": "C:\\Users\\jovce.vretovski\\.nuget\\packages\\",
-      "outputPath": "D:\\MF\\finalAPi\\MF\\IndentityServer\\obj\\",
+      "projectPath": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi\\MF\\IndentityServer\\IndentityServer.csproj",
+      "packagesPath": "C:\\Users\\Jovce\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi\\MF\\IndentityServer\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\jovce.vretovski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Jovce\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7048,9 +7149,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "\\\\192.168.1.32\\DOTNET.Nuget32": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://gslake.pkgs.visualstudio.com/_packaging/AspektNugetFeed/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -7073,6 +7172,10 @@
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
             "target": "Package",
             "version": "[3.1.0, )"
+          },
+          "Microsoft.AspNetCore.OData": {
+            "target": "Package",
+            "version": "[7.3.0, )"
           }
         },
         "imports": [

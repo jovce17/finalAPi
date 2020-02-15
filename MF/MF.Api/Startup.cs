@@ -32,6 +32,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Versioning;
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using MF.Domain.Service.SP;
+using Microsoft.AspNet.OData;
+using Microsoft.AspNet.OData.Extensions;
 
 /// <summary>
 /// Designed by AnaSoft Inc. 2019
@@ -170,7 +172,7 @@ namespace MF.Api
                 //mvc service
                 services.AddMvc(option => option.EnableEndpointRouting = false)
                      .AddNewtonsoftJson();
-
+                services.AddOData();
                 #region "DI code"
                 //general unitofwork injections
                 services.AddTransient<IUnitOfWork, UnitOfWork>();
@@ -259,7 +261,11 @@ namespace MF.Api
                 app.UseAuthorization();
 
                 
-                app.UseMvc();
+                app.UseMvc(                  
+                    routeBuilder => {
+                        routeBuilder.EnableDependencyInjection();
+                        routeBuilder.Expand().Select().Filter().Count().OrderBy().MaxTop(20);
+                    });
 
                 //Swagger API documentation
                 app.UseSwagger();

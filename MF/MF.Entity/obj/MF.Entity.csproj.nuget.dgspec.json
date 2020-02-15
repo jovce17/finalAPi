@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MF\\finalAPi\\MF\\MF.Entity\\MF.Entity.csproj": {}
+    "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi\\MF\\MF.Entity\\MF.Entity.csproj": {}
   },
   "projects": {
-    "D:\\MF\\finalAPi\\MF\\MF.Entity\\MF.Entity.csproj": {
+    "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi\\MF\\MF.Entity\\MF.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MF\\finalAPi\\MF\\MF.Entity\\MF.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi\\MF\\MF.Entity\\MF.Entity.csproj",
         "projectName": "MF.Entity",
-        "projectPath": "D:\\MF\\finalAPi\\MF\\MF.Entity\\MF.Entity.csproj",
-        "packagesPath": "C:\\Users\\jovce.vretovski\\.nuget\\packages\\",
-        "outputPath": "D:\\MF\\finalAPi\\MF\\MF.Entity\\obj\\",
+        "projectPath": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi\\MF\\MF.Entity\\MF.Entity.csproj",
+        "packagesPath": "C:\\Users\\Jovce\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi\\MF\\MF.Entity\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jovce.vretovski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jovce\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,9 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "\\\\192.168.1.32\\DOTNET.Nuget32": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://gslake.pkgs.visualstudio.com/_packaging/AspektNugetFeed/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -46,6 +41,10 @@
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
               "version": "[3.1.0, )"
+            },
+            "Microsoft.AspNetCore.OData": {
+              "target": "Package",
+              "version": "[7.3.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
