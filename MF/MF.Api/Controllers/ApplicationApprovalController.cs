@@ -8,6 +8,7 @@ using MF.Domain.Service;
 using Microsoft.Extensions.Logging;
 using Serilog;
 using MF.Entity;
+using Microsoft.AspNet.OData;
 
 namespace MF.Api.Controllers
 {
@@ -26,6 +27,7 @@ namespace MF.Api.Controllers
         //get all
         [Authorize]
         [HttpGet]
+        [EnableQuery()]
         public IEnumerable<ApplicationApprovalViewModel> GetAll()
         {
             var test = _applicationApprovalService.DoNothing();

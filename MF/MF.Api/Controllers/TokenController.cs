@@ -2,6 +2,7 @@
 using MF.Domain;
 using MF.Domain.Service;
 using MF.Entity;
+using Microsoft.AspNet.OData;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -32,6 +33,7 @@ namespace JWT.Controllers
 
         [AllowAnonymous]
         [HttpPost]
+        [EnableQuery()]
         public IActionResult Create([FromBody]LoginModel login)
         {
             IActionResult response = Unauthorized();

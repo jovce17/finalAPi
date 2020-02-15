@@ -10,6 +10,7 @@ using Serilog;
 using MF.Entity;
 using System.Threading.Tasks;
 using MF.Domain.Service.SP;
+using Microsoft.AspNet.OData;
 
 namespace MF.Api.Controllers
 {
@@ -30,6 +31,7 @@ namespace MF.Api.Controllers
         //get all
         [Authorize]
         [HttpGet]
+        [EnableQuery()]
         public async Task<IEnumerable<string>> getall()
         {
             var items = await _sp.GetBlogSummaries();

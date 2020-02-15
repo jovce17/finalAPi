@@ -9,6 +9,7 @@ using Microsoft.Extensions.Logging;
 using Serilog;
 using MF.Entity;
 using System.Threading.Tasks;
+using Microsoft.AspNet.OData;
 
 namespace MF.Api.Controllers
 {
@@ -28,6 +29,7 @@ namespace MF.Api.Controllers
         //get all
         [Authorize]
         [HttpGet]
+        [EnableQuery()]
         public async Task<IEnumerable<ApplicationViewModel>> GetAll()
         {
             var items = await _applicationServiceAsync.GetAll();
