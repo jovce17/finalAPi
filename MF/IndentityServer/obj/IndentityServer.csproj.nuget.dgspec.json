@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi\\MF\\IndentityServer\\IndentityServer.csproj": {}
+    "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi - Copy (2)\\MF\\IndentityServer\\IndentityServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi\\MF\\IndentityServer\\IndentityServer.csproj": {
+    "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi - Copy (2)\\MF\\IndentityServer\\IndentityServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi\\MF\\IndentityServer\\IndentityServer.csproj",
+        "projectUniqueName": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi - Copy (2)\\MF\\IndentityServer\\IndentityServer.csproj",
         "projectName": "IndentityServer",
-        "projectPath": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi\\MF\\IndentityServer\\IndentityServer.csproj",
+        "projectPath": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi - Copy (2)\\MF\\IndentityServer\\IndentityServer.csproj",
         "packagesPath": "C:\\Users\\Jovce\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi\\MF\\IndentityServer\\obj\\",
+        "outputPath": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi - Copy (2)\\MF\\IndentityServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jovce\\AppData\\Roaming\\NuGet\\NuGet.Config",

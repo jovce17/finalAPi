@@ -7253,11 +7253,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi\\MF\\MF.Entity\\MF.Entity.csproj",
+      "projectUniqueName": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi - Copy (2)\\MF\\MF.Entity\\MF.Entity.csproj",
       "projectName": "MF.Entity",
-      "projectPath": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi\\MF\\MF.Entity\\MF.Entity.csproj",
+      "projectPath": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi - Copy (2)\\MF\\MF.Entity\\MF.Entity.csproj",
       "packagesPath": "C:\\Users\\Jovce\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi\\MF\\MF.Entity\\obj\\",
+      "outputPath": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi - Copy (2)\\MF\\MF.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jovce\\AppData\\Roaming\\NuGet\\NuGet.Config",

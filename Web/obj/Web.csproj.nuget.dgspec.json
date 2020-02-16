@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi\\Web\\Web.csproj": {}
+    "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi - Copy (2)\\Web\\Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi\\Web\\Web.csproj": {
+    "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi - Copy (2)\\Web\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi\\Web\\Web.csproj",
+        "projectUniqueName": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi - Copy (2)\\Web\\Web.csproj",
         "projectName": "Web",
-        "projectPath": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi\\Web\\Web.csproj",
+        "projectPath": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi - Copy (2)\\Web\\Web.csproj",
         "packagesPath": "C:\\Users\\Jovce\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi\\Web\\obj\\",
+        "outputPath": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi - Copy (2)\\Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jovce\\AppData\\Roaming\\NuGet\\NuGet.Config",

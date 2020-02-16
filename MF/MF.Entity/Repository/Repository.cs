@@ -23,9 +23,9 @@ namespace MF.Entity.Repository
         }
 
 
-        public IEnumerable<T> GetAll()
+        public IEnumerable<T> GetAll(System.Linq.Expressions.Expression<Func<T, bool>> predicate)
         {
-            return _unitOfWork.Context.Set<T>();
+            return _unitOfWork.Context.Set<T>().Where(predicate).AsEnumerable<T>();
         }
         public IEnumerable<T> Get(System.Linq.Expressions.Expression<Func<T, bool>> predicate)
         {

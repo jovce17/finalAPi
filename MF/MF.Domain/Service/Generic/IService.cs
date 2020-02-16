@@ -7,7 +7,7 @@ namespace MF.Domain.Service
 {
     public interface IService<Tv, Te>
     {
-        IEnumerable<Tv> GetAll();
+        IEnumerable<Tv> GetAll(Expression<Func<Te, bool>> predicate);
         int Add(Tv obj);
         int Update(Tv obj);
         int Remove(int id);

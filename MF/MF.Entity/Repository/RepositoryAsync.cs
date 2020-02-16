@@ -23,9 +23,9 @@ namespace MF.Entity.Repository
             _unitOfWork = unitOfWork;
         }
 
-        public async Task<IEnumerable<T>> GetAll()
+        public async Task<IEnumerable<T>> GetAll(Expression<Func<T, bool>> predicate)
         {
-            return await _unitOfWork.Context.Set<T>().ToListAsync();
+            return await _unitOfWork.Context.Set<T>().Where(predicate).ToListAsync();
         }
         public async Task<IEnumerable<T>> Get(System.Linq.Expressions.Expression<Func<T, bool>> predicate)
         {

@@ -8,7 +8,7 @@ namespace MF.Entity.Repository
 {
     public interface IRepositoryAsync<T> where T : class
     {
-        Task<IEnumerable<T>> GetAll();
+        Task<IEnumerable<T>> GetAll(Expression<Func<T, bool>> predicate);
         Task<IEnumerable<T>> Get(Expression<Func<T, bool>> predicate);
         Task<T> GetOne(Expression<Func<T, bool>> predicate);
         Task Insert(T entity);

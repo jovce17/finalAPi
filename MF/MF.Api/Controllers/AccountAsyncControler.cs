@@ -9,6 +9,10 @@ using Microsoft.Extensions.Logging;
 using Serilog;
 using System.Threading.Tasks;
 using MF.Entity;
+using Microsoft.AspNet.OData.Query;
+using Microsoft.AspNet.OData;
+using System.Linq.Expressions;
+using System;
 
 namespace MF.Api.Controllers
 {
@@ -25,12 +29,22 @@ namespace MF.Api.Controllers
         }
 
 
+        public Expression<Func<Account, bool>> predicate;
         //get all
         [Authorize]
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        [EnableQuery()]
+        public async Task<IActionResult> GetAll(ODataQueryOptions<Account> _odata)
         {
-            var items = await _accountServiceAsync.GetAll();
+            if (_odata.Filter != null)
+            {
+                predicate = ODataQueryOptionsExtensions.GetFilter(_odata);
+            }
+            if (predicate == null)
+            {
+                predicate = x => x.Id == x.Id;
+            }
+            var items = await _accountServiceAsync.GetAll(predicate);
             return Ok(items);
         }
 

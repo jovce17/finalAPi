@@ -9,6 +9,9 @@ using Microsoft.Extensions.Logging;
 using Serilog;
 using MF.Entity;
 using Microsoft.AspNet.OData;
+using Microsoft.AspNet.OData.Query;
+using System.Linq.Expressions;
+using System;
 
 namespace MF.Api.Controllers
 {
@@ -24,14 +27,23 @@ namespace MF.Api.Controllers
             _applicationApprovalService = applicationApprovalService;
         }
 
+        public Expression<Func<ApplicationApproval, bool>> predicate;
         //get all
         [Authorize]
         [HttpGet]
         [EnableQuery()]
-        public IEnumerable<ApplicationApprovalViewModel> GetAll()
+        public IEnumerable<ApplicationApprovalViewModel> GetAll(ODataQueryOptions<ApplicationApproval> _odata)
         {
+            if (_odata.Filter != null)
+            {
+                predicate = ODataQueryOptionsExtensions.GetFilter(_odata);
+            }
+            if (predicate == null)
+            {
+                predicate = x => x.Id == x.Id;
+            }
             var test = _applicationApprovalService.DoNothing();
-            var items = _applicationApprovalService.GetAll();
+            var items = _applicationApprovalService.GetAll(predicate);
             return items;
         }
 

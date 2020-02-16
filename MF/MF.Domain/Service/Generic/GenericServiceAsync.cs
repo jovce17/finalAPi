@@ -26,10 +26,10 @@ namespace MF.Domain.Service
         {
         }
 
-        public virtual async Task<IEnumerable<Tv>> GetAll()
+        public virtual async Task<IEnumerable<Tv>> GetAll(Expression<Func<Te, bool>> predicate)
         {
             var entities = await _unitOfWork.GetRepositoryAsync<Te>()
-                .GetAll();
+                .GetAll(predicate: predicate);
             return _mapper.Map<IEnumerable<Tv>>(source: entities);
         }
 

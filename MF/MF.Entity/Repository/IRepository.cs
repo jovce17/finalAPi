@@ -8,7 +8,7 @@ namespace MF.Entity.Repository
 {
     public interface IRepository<T> where T : class
     {
-        IEnumerable<T> GetAll();
+        IEnumerable<T> GetAll(Expression<Func<T, bool>> predicate);
         IEnumerable<T> Get(Expression<Func<T, bool>> predicate);
         T GetOne(Expression<Func<T, bool>> predicate);
         void Insert(T entity);

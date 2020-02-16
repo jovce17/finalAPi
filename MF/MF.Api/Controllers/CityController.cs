@@ -9,6 +9,9 @@ using Microsoft.Extensions.Logging;
 using Serilog;
 using MF.Entity;
 using Microsoft.AspNet.OData;
+using Microsoft.AspNet.OData.Query;
+using System;
+using System.Linq.Expressions;
 
 namespace MF.Api.Controllers
 {
@@ -25,13 +28,22 @@ namespace MF.Api.Controllers
             _cityService = cityService;
         }
 
+        public Expression<Func<City, bool>> predicate;
         //get all
         [Authorize]
         [HttpGet]
         [EnableQuery()]
-        public IEnumerable<CityViewModel> GetAll()
+        public IEnumerable<CityViewModel> GetAll(ODataQueryOptions<City> _odata)
         {
-            var items = _cityService.GetAll().AsQueryable();
+            if (_odata.Filter != null)
+            {
+                predicate = ODataQueryOptionsExtensions.GetFilter(_odata);
+            }
+            if (predicate == null)
+            {
+                predicate = x => x.Id == x.Id;
+            }
+            var items = _cityService.GetAll(predicate);
             return items;
         }
 

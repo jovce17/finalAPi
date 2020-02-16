@@ -7333,11 +7333,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi\\MF\\MF.Domain\\MF.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi - Copy (2)\\MF\\MF.Domain\\MF.Domain.csproj",
       "projectName": "MF.Domain",
-      "projectPath": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi\\MF\\MF.Domain\\MF.Domain.csproj",
+      "projectPath": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi - Copy (2)\\MF\\MF.Domain\\MF.Domain.csproj",
       "packagesPath": "C:\\Users\\Jovce\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi\\MF\\MF.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi - Copy (2)\\MF\\MF.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jovce\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7353,8 +7353,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi\\MF\\MF.Entity\\MF.Entity.csproj": {
-              "projectPath": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi\\MF\\MF.Entity\\MF.Entity.csproj"
+            "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi - Copy (2)\\MF\\MF.Entity\\MF.Entity.csproj": {
+              "projectPath": "C:\\Users\\Jovce\\source\\repos\\shablon\\finalAPi - Copy (2)\\MF\\MF.Entity\\MF.Entity.csproj"
             }
           }
         }

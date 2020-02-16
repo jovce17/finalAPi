@@ -24,10 +24,10 @@ namespace MF.Domain.Service
         {
         }
 
-        public virtual IEnumerable<Tv> GetAll()
+        public virtual IEnumerable<Tv> GetAll(Expression<Func<Te, bool>> predicate)
         {
             var entities = _unitOfWork.GetRepository<Te>()
-            .GetAll();
+            .GetAll(predicate: predicate);
             return _mapper.Map<IEnumerable<Tv>>(source: entities);
         }
         public virtual Tv GetOne(int id)

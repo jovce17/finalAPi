@@ -8,6 +8,10 @@ using MF.Domain.Service;
 using Microsoft.Extensions.Logging;
 using Serilog;
 using MF.Entity;
+using Microsoft.AspNet.OData.Query;
+using System.Linq.Expressions;
+using System;
+using Microsoft.AspNet.OData;
 
 namespace MF.Api.Controllers
 {
@@ -23,17 +27,29 @@ namespace MF.Api.Controllers
             _accountService = accountService;
         }
 
+
+        public Expression<Func<Account, bool>> predicate;
         //get all
         [Authorize]
         [HttpGet]
-        public IEnumerable<AccountViewModel> GetAll()
+        [EnableQuery()]
+        public IEnumerable<AccountViewModel> GetAll(ODataQueryOptions<Account> _odata)
         {
+            if (_odata.Filter != null)
+            {
+                predicate = ODataQueryOptionsExtensions.GetFilter(_odata);
+            }
+            if (predicate == null)
+            {
+                predicate = x => x.Id == x.Id;
+            }
+
             //Log.Information("Log: Log.Information");
             //Log.Warning("Log: Log.Warning");
             //Log.Error("Log: Log.Error");
             //Log.Fatal("Log: Log.Fatal");
             var test = _accountService.DoNothing();
-            var items = _accountService.GetAll();
+            var items = _accountService.GetAll(predicate);
             return items;
         }
 

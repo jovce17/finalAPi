@@ -9,6 +9,7 @@ using Microsoft.Extensions.Logging;
 using Serilog;
 using MF.Entity;
 using Microsoft.AspNet.OData;
+using Microsoft.AspNet.OData.Query;
 
 namespace MF.Api.Controllers
 {
@@ -28,10 +29,15 @@ namespace MF.Api.Controllers
         [Authorize]
         [HttpGet]
         [EnableQuery()]
-        public IEnumerable<OfficeViewModel> GetAll()
+        public IEnumerable<OfficeViewModel> GetAll(ODataQueryOptions<Office> _odata)
         {
+            var predicate = ODataQueryOptionsExtensions.GetFilter(_odata);
+            if (predicate == null)
+            {
+                predicate = x => x.Id == x.Id;
+            }
             var test = _officeService.DoNothing();
-            var items = _officeService.GetAll();
+            var items = _officeService.GetAll(predicate);
             return items;
         }
 
