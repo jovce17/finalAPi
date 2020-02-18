@@ -21,7 +21,9 @@ namespace MF.Domain.Mapping
             CreateMap<City, CityViewModel>();
 
             CreateMap<OfficeViewModel, Office>()
-                .ForPath(dest => dest.CityId, opts => opts.MapFrom(src => src.City.Id));
+                .ForMember(dest => dest.CityId, opts => opts.MapFrom(src => src.City.Id))
+                .ForMember(dest => dest.Name, opts => opts.MapFrom(src => src.Name))
+                .ForMember(dest => dest.City, opts => opts.Ignore());
             CreateMap<Office, OfficeViewModel>()
                 .ForPath(dest => dest.City.Id, input => input.MapFrom(src => src.CityId))
                 .ForPath(dest => dest.City.Value, input => input.MapFrom(src => src.City.Name));
@@ -29,7 +31,8 @@ namespace MF.Domain.Mapping
             CreateMap<ContactViewModel, Contact>()
                 .ForPath(dest => dest.CityId, opts => opts.MapFrom(src => src.City.Id))
                 .ForPath(dest => dest.ContactType, opts => opts.MapFrom(src => src.ContactType.Id))
-                .ForPath(dest => dest.MaritialStatus, opts => opts.MapFrom(src => src.MaritialStatus.Id));
+                .ForPath(dest => dest.MaritialStatus, opts => opts.MapFrom(src => src.MaritialStatus.Id))
+                .ForMember(dest => dest.City, opts => opts.Ignore());
             CreateMap<Contact, ContactViewModel>()
                 .ForPath(dest => dest.City.Id, input => input.MapFrom(src => src.CityId))
                 .ForPath(dest => dest.City.Value, input => input.MapFrom(src => src.City.Name))
@@ -43,7 +46,10 @@ namespace MF.Domain.Mapping
                 .ForPath(dest => dest.OfficeId, opts => opts.MapFrom(src => src.Office.Id))
                 .ForPath(dest => dest.ClientContactId, opts => opts.MapFrom(src => src.ClientContact.Id))
                 .ForPath(dest => dest.LoanOfficerContactId, opts => opts.MapFrom(src => src.LoanOfficerContact.Id))
-                .ForPath(dest => dest.Status, opts => opts.MapFrom(src => src.Status.Id)); ;
+                .ForPath(dest => dest.Status, opts => opts.MapFrom(src => src.Status.Id))
+                .ForMember(dest => dest.Office, opts => opts.Ignore())
+                .ForMember(dest => dest.ClientContact, opts => opts.Ignore())
+                .ForMember(dest => dest.LoanOfficerContact, opts => opts.Ignore()); 
             CreateMap<Application, ApplicationViewModel>()
                 .ForPath(dest => dest.Office.Id, input => input.MapFrom(src => src.OfficeId))
                 .ForPath(dest => dest.Office.Value, input => input.MapFrom(src => src.Office.Name))
@@ -58,7 +64,9 @@ namespace MF.Domain.Mapping
             CreateMap<ApplicationApprovalViewModel, ApplicationApproval>()
                  .ForPath(dest => dest.ApplicationId, opts => opts.MapFrom(src => src.Application.Id))
                  .ForPath(dest => dest.UserId, opts => opts.MapFrom(src => src.User.Id))
-                 .ForPath(dest => dest.Status, opts => opts.MapFrom(src => src.Status.Id));
+                 .ForPath(dest => dest.Status, opts => opts.MapFrom(src => src.Status.Id))
+                .ForMember(dest => dest.Application, opts => opts.Ignore())
+                .ForMember(dest => dest.User, opts => opts.Ignore());
             CreateMap<ApplicationApproval, ApplicationApprovalViewModel>()
                  .ForPath(dest => dest.Application.Id, opts => opts.MapFrom(src => src.ApplicationId))
                  .ForPath(dest => dest.Application.Value, opts => opts.MapFrom(src => src.Application.ApplicationNumber))
@@ -73,7 +81,11 @@ namespace MF.Domain.Mapping
                 .ForPath(dest => dest.ApplicationId, opts => opts.MapFrom(src => src.Application.Id))
                 .ForPath(dest => dest.ClientContactId, opts => opts.MapFrom(src => src.ClientContact.Id))
                 .ForPath(dest => dest.LoanOfficerContactId, opts => opts.MapFrom(src => src.LoanOfficerContact.Id))
-                .ForPath(dest => dest.Status, opts => opts.MapFrom(src => src.Status.Id)); ;
+                .ForPath(dest => dest.Status, opts => opts.MapFrom(src => src.Status.Id))
+                .ForMember(dest => dest.Application, opts => opts.Ignore())
+                .ForMember(dest => dest.ClientContact, opts => opts.Ignore())
+                .ForMember(dest => dest.Office, opts => opts.Ignore())
+                .ForMember(dest => dest.LoanOfficerContact, opts => opts.Ignore());
             CreateMap<Loan, LoanViewModel>()
                 .ForPath(dest => dest.Office.Id, input => input.MapFrom(src => src.OfficeId))
                 .ForPath(dest => dest.Office.Value, input => input.MapFrom(src => src.Office.Name))
@@ -88,7 +100,8 @@ namespace MF.Domain.Mapping
 
 
             CreateMap<RepaymentPlanViewModel, RepaymentPlan>()
-                .ForPath(dest => dest.LoanId, opts => opts.MapFrom(src => src.Loan.Id));
+                .ForPath(dest => dest.LoanId, opts => opts.MapFrom(src => src.Loan.Id))
+                .ForMember(dest => dest.Loan, opts => opts.Ignore());
             CreateMap<RepaymentPlan, RepaymentPlanViewModel>()
                 .ForPath(dest => dest.Loan.Id, opts => opts.MapFrom(src => src.LoanId))
                 .ForPath(dest => dest.Loan.Value, opts => opts.MapFrom(src => src.Loan.AgreementNumber));
